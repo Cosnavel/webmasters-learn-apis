@@ -30,14 +30,12 @@
 			"sideralOrbit": 27.3217,
 			"sideralRotation": 655.728,
 			"aroundPlanet": {
-				"planet": "terre",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/terre"
+				"planet": "terre"
 			},
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 6.68,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/lune"
+			"axialTilt": 6.68
 		},
 		{
 			"id": "phobos",
@@ -69,14 +67,12 @@
 			"sideralOrbit": 0.31891,
 			"sideralRotation": 0.7653,
 			"aroundPlanet": {
-				"planet": "mars",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/mars"
+				"planet": "mars"
 			},
 			"discoveredBy": "Asaph Hall",
 			"discoveryDate": "12/08/1877",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/phobos"
+			"axialTilt": 0
 		},
 		{
 			"id": "deimos",
@@ -108,14 +104,12 @@
 			"sideralOrbit": 1.26244,
 			"sideralRotation": 30.29856,
 			"aroundPlanet": {
-				"planet": "mars",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/mars"
+				"planet": "mars"
 			},
 			"discoveredBy": "Asaph Hall",
 			"discoveryDate": "12/08/1877",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/deimos"
+			"axialTilt": 0
 		},
 		{
 			"id": "io",
@@ -144,14 +138,12 @@
 			"sideralOrbit": 1.76914,
 			"sideralRotation": 42.4593,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Galileo Galilei",
 			"discoveryDate": "07/01/1610",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/io"
+			"axialTilt": 0
 		},
 		{
 			"id": "europe",
@@ -180,14 +172,12 @@
 			"sideralOrbit": 3.55118,
 			"sideralRotation": 85.2293,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Galileo Galilei",
 			"discoveryDate": "08/01/1610",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/europe"
+			"axialTilt": 0
 		},
 		{
 			"id": "ganymede",
@@ -216,14 +206,12 @@
 			"sideralOrbit": 7.15455,
 			"sideralRotation": 171.7093,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Galileo Galilei",
 			"discoveryDate": "11/01/1610",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ganymede"
+			"axialTilt": 0
 		},
 		{
 			"id": "callisto",
@@ -252,14 +240,12 @@
 			"sideralOrbit": 16.68902,
 			"sideralRotation": 400.536,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Galileo Galilei",
 			"discoveryDate": "07/01/1610",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/callisto"
+			"axialTilt": 0
 		},
 		{
 			"id": "amalthee",
@@ -288,14 +274,12 @@
 			"sideralOrbit": 0.49818,
 			"sideralRotation": 11.9563,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "E. Barnard",
 			"discoveryDate": "09/09/1892",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/amalthee"
+			"axialTilt": 0
 		},
 		{
 			"id": "himalia",
@@ -324,14 +308,12 @@
 			"sideralOrbit": 250.5662,
 			"sideralRotation": 7.7808,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "C. Perrine",
 			"discoveryDate": "03/12/1904",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/himalia"
+			"axialTilt": 0
 		},
 		{
 			"id": "elara",
@@ -360,14 +342,12 @@
 			"sideralOrbit": 259.6528,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "C. Perrine",
 			"discoveryDate": "02/01/1905",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/elara"
+			"axialTilt": 0
 		},
 		{
 			"id": "pasiphae",
@@ -396,14 +376,12 @@
 			"sideralOrbit": 743.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "P. Melotte",
 			"discoveryDate": "27/01/1908",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pasiphae"
+			"axialTilt": 0
 		},
 		{
 			"id": "sinope",
@@ -432,14 +410,12 @@
 			"sideralOrbit": 758.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Seth Barnes Nicholson",
 			"discoveryDate": "21/07/1914",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sinope"
+			"axialTilt": 0
 		},
 		{
 			"id": "lysithea",
@@ -468,14 +444,12 @@
 			"sideralOrbit": 259.22,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Seth Barnes Nicholson",
 			"discoveryDate": "06/07/1938",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/lysithea"
+			"axialTilt": 0
 		},
 		{
 			"id": "carme",
@@ -504,14 +478,12 @@
 			"sideralOrbit": 734.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Seth Barnes Nicholson",
 			"discoveryDate": "30/07/1938",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/carme"
+			"axialTilt": 0
 		},
 		{
 			"id": "ananke",
@@ -540,14 +512,12 @@
 			"sideralOrbit": 629.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Seth Barnes Nicholson",
 			"discoveryDate": "28/09/1951",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ananke"
+			"axialTilt": 0
 		},
 		{
 			"id": "leda",
@@ -576,14 +546,12 @@
 			"sideralOrbit": 240.92,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Charles Kowa",
 			"discoveryDate": "11/09/1974",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/leda"
+			"axialTilt": 0
 		},
 		{
 			"id": "thebe",
@@ -612,14 +580,12 @@
 			"sideralOrbit": 0.6745,
 			"sideralRotation": 16.188,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "05/03/1979",
 			"alternativeName": "S/1979 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/thebe"
+			"axialTilt": 0
 		},
 		{
 			"id": "adrastee",
@@ -648,14 +614,12 @@
 			"sideralOrbit": 0.29826,
 			"sideralRotation": 0.7158,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "David C. Jewitt, G. E. Danielson",
 			"discoveryDate": "08/07/1979",
 			"alternativeName": "S/1979 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/adrastee"
+			"axialTilt": 0
 		},
 		{
 			"id": "metis",
@@ -684,14 +648,12 @@
 			"sideralOrbit": 0.29478,
 			"sideralRotation": 0.7075,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "04/03/1979",
 			"alternativeName": "S/1979 J 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/metis"
+			"axialTilt": 0
 		},
 		{
 			"id": "callirrhoe",
@@ -720,14 +682,12 @@
 			"sideralOrbit": 758.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "J.V. Scott",
 			"discoveryDate": "06/10/1999",
 			"alternativeName": "S/1999 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/callirrhoe"
+			"axialTilt": 0
 		},
 		{
 			"id": "themisto",
@@ -756,14 +716,12 @@
 			"sideralOrbit": 130.02,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Charles Kowal 1975 - Scott S. Sheppard, David C. Jewitt 2000",
 			"discoveryDate": "30/09/1975",
 			"alternativeName": "S/1975 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/themisto"
+			"axialTilt": 0
 		},
 		{
 			"id": "megaclite",
@@ -792,14 +750,12 @@
 			"sideralOrbit": 752.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/megaclite"
+			"axialTilt": 0
 		},
 		{
 			"id": "taygete",
@@ -828,14 +784,12 @@
 			"sideralOrbit": 732.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/taygete"
+			"axialTilt": 0
 		},
 		{
 			"id": "chaldene",
@@ -864,14 +818,12 @@
 			"sideralOrbit": 723.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/chaldene"
+			"axialTilt": 0
 		},
 		{
 			"id": "harpalyke",
@@ -900,14 +852,12 @@
 			"sideralOrbit": 623.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/harpalyke"
+			"axialTilt": 0
 		},
 		{
 			"id": "kalyke",
@@ -936,14 +886,12 @@
 			"sideralOrbit": 743,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/kalyke"
+			"axialTilt": 0
 		},
 		{
 			"id": "iocaste",
@@ -972,14 +920,12 @@
 			"sideralOrbit": 631.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/iocaste"
+			"axialTilt": 0
 		},
 		{
 			"id": "erinome",
@@ -1008,14 +954,12 @@
 			"sideralOrbit": 728.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/erinome"
+			"axialTilt": 0
 		},
 		{
 			"id": "isonoe",
@@ -1044,14 +988,12 @@
 			"sideralOrbit": 725.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/isonoe"
+			"axialTilt": 0
 		},
 		{
 			"id": "praxidike",
@@ -1080,14 +1022,12 @@
 			"sideralOrbit": 625.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "23/11/2000",
 			"alternativeName": "S/2000 J 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/praxidike"
+			"axialTilt": 0
 		},
 		{
 			"id": "autonoe",
@@ -1116,14 +1056,12 @@
 			"sideralOrbit": 715.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "10/12/2001",
 			"alternativeName": "S/2001 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/autonoe"
+			"axialTilt": 0
 		},
 		{
 			"id": "thyone",
@@ -1152,14 +1090,12 @@
 			"sideralOrbit": 627.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "11/12/2001",
 			"alternativeName": "S/2001 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/thyone"
+			"axialTilt": 0
 		},
 		{
 			"id": "hermippe",
@@ -1188,14 +1124,12 @@
 			"sideralOrbit": 633.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "19/12/2001",
 			"alternativeName": "S/2001 J 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hermippe"
+			"axialTilt": 0
 		},
 		{
 			"id": "aitne",
@@ -1224,14 +1158,12 @@
 			"sideralOrbit": 730.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "19/12/2001",
 			"alternativeName": "S/2001 J 11",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/aitne"
+			"axialTilt": 0
 		},
 		{
 			"id": "eurydome",
@@ -1260,14 +1192,12 @@
 			"sideralOrbit": 723.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "19/12/2001",
 			"alternativeName": "S/2001 J 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eurydome"
+			"axialTilt": 0
 		},
 		{
 			"id": "euanthe",
@@ -1296,14 +1226,12 @@
 			"sideralOrbit": 620.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "11/12/2001",
 			"alternativeName": "S/2001 J 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/euanthe"
+			"axialTilt": 0
 		},
 		{
 			"id": "euporie",
@@ -1332,14 +1260,12 @@
 			"sideralOrbit": 553.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "11/12/2001",
 			"alternativeName": "S/2001 J 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/euporie"
+			"axialTilt": 0
 		},
 		{
 			"id": "orthosie",
@@ -1368,14 +1294,12 @@
 			"sideralOrbit": 622.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "11/12/2001",
 			"alternativeName": "S/2001 J 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/orthosie"
+			"axialTilt": 0
 		},
 		{
 			"id": "sponde",
@@ -1404,14 +1328,12 @@
 			"sideralOrbit": 748.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "19/12/2001",
 			"alternativeName": "S/2001 J 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sponde"
+			"axialTilt": 0
 		},
 		{
 			"id": "cale",
@@ -1440,14 +1362,12 @@
 			"sideralOrbit": 729.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "19/12/2001",
 			"alternativeName": "S/2001 J 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cale"
+			"axialTilt": 0
 		},
 		{
 			"id": "pasithee",
@@ -1476,14 +1396,12 @@
 			"sideralOrbit": 716.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "11/12/2001",
 			"alternativeName": "S/2001 J 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pasithee"
+			"axialTilt": 0
 		},
 		{
 			"id": "hegemone",
@@ -1512,14 +1430,12 @@
 			"sideralOrbit": 739.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hegemone"
+			"axialTilt": 0
 		},
 		{
 			"id": "mneme",
@@ -1548,14 +1464,12 @@
 			"sideralOrbit": 620,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 21",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mneme"
+			"axialTilt": 0
 		},
 		{
 			"id": "aoede",
@@ -1584,14 +1498,12 @@
 			"sideralOrbit": 761.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/aoede"
+			"axialTilt": 0
 		},
 		{
 			"id": "thelxinoe",
@@ -1620,14 +1532,12 @@
 			"sideralOrbit": 628.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 22",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/thelxinoe"
+			"axialTilt": 0
 		},
 		{
 			"id": "arche",
@@ -1656,14 +1566,12 @@
 			"sideralOrbit": 762.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "31/10/2002",
 			"alternativeName": "S/2002 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/arche"
+			"axialTilt": 0
 		},
 		{
 			"id": "callichore",
@@ -1692,14 +1600,12 @@
 			"sideralOrbit": 764.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 11",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/callichore"
+			"axialTilt": 0
 		},
 		{
 			"id": "helice",
@@ -1728,14 +1634,12 @@
 			"sideralOrbit": 634.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/helice"
+			"axialTilt": 0
 		},
 		{
 			"id": "carpo",
@@ -1764,14 +1668,12 @@
 			"sideralOrbit": 456.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 20",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/carpo"
+			"axialTilt": 0
 		},
 		{
 			"id": "eukelade",
@@ -1800,14 +1702,12 @@
 			"sideralOrbit": 746.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eukelade"
+			"axialTilt": 0
 		},
 		{
 			"id": "cyllene",
@@ -1836,14 +1736,12 @@
 			"sideralOrbit": 737.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 13",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cyllene"
+			"axialTilt": 0
 		},
 		{
 			"id": "core",
@@ -1872,14 +1770,12 @@
 			"sideralOrbit": 779.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 14",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/core"
+			"axialTilt": 0
 		},
 		{
 			"id": "herse",
@@ -1908,14 +1804,12 @@
 			"sideralOrbit": 717.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 17",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/herse"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j2",
@@ -1944,14 +1838,12 @@
 			"sideralOrbit": 982.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j2"
+			"axialTilt": 0
 		},
 		{
 			"id": "eupheme",
@@ -1980,14 +1872,12 @@
 			"sideralOrbit": 504,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eupheme"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j4",
@@ -2016,14 +1906,12 @@
 			"sideralOrbit": 723.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j4"
+			"axialTilt": 0
 		},
 		{
 			"id": "eirene",
@@ -2052,14 +1940,12 @@
 			"sideralOrbit": 759.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eirene"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j9",
@@ -2088,14 +1974,12 @@
 			"sideralOrbit": 683,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j9"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j10",
@@ -2124,14 +2008,12 @@
 			"sideralOrbit": 767,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j10"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j12",
@@ -2160,14 +2042,12 @@
 			"sideralOrbit": 533.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 12",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j12"
+			"axialTilt": 0
 		},
 		{
 			"id": "philophrosyne",
@@ -2196,14 +2076,12 @@
 			"sideralOrbit": 668.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 15",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/philophrosyne"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j16",
@@ -2232,14 +2110,12 @@
 			"sideralOrbit": 595.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 16",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j16"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j18",
@@ -2268,14 +2144,12 @@
 			"sideralOrbit": 606.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 18",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j18"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j19",
@@ -2304,14 +2178,12 @@
 			"sideralOrbit": 701.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 19",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j19"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2003j23",
@@ -2340,14 +2212,12 @@
 			"sideralOrbit": 759.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "2003",
 			"alternativeName": "S/2003 J 23",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j23"
+			"axialTilt": 0
 		},
 		{
 			"id": "mimas",
@@ -2376,14 +2246,12 @@
 			"sideralOrbit": 0.94,
 			"sideralRotation": 22.56,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "William Herschel",
 			"discoveryDate": "17/09/1789",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mimas"
+			"axialTilt": 0
 		},
 		{
 			"id": "encelade",
@@ -2412,14 +2280,12 @@
 			"sideralOrbit": 1.37,
 			"sideralRotation": 32.88,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "William Herschel",
 			"discoveryDate": "28/08/1789",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/encelade"
+			"axialTilt": 0
 		},
 		{
 			"id": "tethys",
@@ -2448,14 +2314,12 @@
 			"sideralOrbit": 1.89,
 			"sideralRotation": 45.312,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Jean-Dominique Cassini",
 			"discoveryDate": "21/03/1684",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/tethys"
+			"axialTilt": 0
 		},
 		{
 			"id": "dione",
@@ -2484,14 +2348,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Jean-Dominique Cassini",
 			"discoveryDate": "21/03/1684",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/dione"
+			"axialTilt": 0
 		},
 		{
 			"id": "rhea",
@@ -2520,14 +2382,12 @@
 			"sideralOrbit": 4.518,
 			"sideralRotation": 108.432,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Jean-Dominique Cassini",
 			"discoveryDate": "23/12/1672",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/rhea"
+			"axialTilt": 0
 		},
 		{
 			"id": "titan",
@@ -2556,14 +2416,12 @@
 			"sideralOrbit": 15.95,
 			"sideralRotation": 382.8,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Christian Huygens",
 			"discoveryDate": "25/03/1655",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/titan"
+			"axialTilt": 0
 		},
 		{
 			"id": "hyperion",
@@ -2592,14 +2450,12 @@
 			"sideralOrbit": 21.28,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "William Cranch Bond, George Phillips Bond",
 			"discoveryDate": "16/09/1848",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hyperion"
+			"axialTilt": 0
 		},
 		{
 			"id": "japet",
@@ -2628,14 +2484,12 @@
 			"sideralOrbit": 79.33,
 			"sideralRotation": 1735.92,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Jean-Dominique Cassini",
 			"discoveryDate": "25/10/1671",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/japet"
+			"axialTilt": 0
 		},
 		{
 			"id": "phoebe",
@@ -2664,14 +2518,12 @@
 			"sideralOrbit": 548.2,
 			"sideralRotation": 9.2736,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "William Henry Pickering",
 			"discoveryDate": "17/03/1899",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/phoebe"
+			"axialTilt": 0
 		},
 		{
 			"id": "janus",
@@ -2700,14 +2552,12 @@
 			"sideralOrbit": 0.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Audouin Dollfus",
 			"discoveryDate": "15/12/1966",
 			"alternativeName": "S/1980 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/janus"
+			"axialTilt": 0
 		},
 		{
 			"id": "epimethee",
@@ -2736,14 +2586,12 @@
 			"sideralOrbit": 0.69,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Richard L. Walker",
 			"discoveryDate": "18/12/1966",
 			"alternativeName": "S/1980 S 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/epimethee"
+			"axialTilt": 0
 		},
 		{
 			"id": "helene",
@@ -2772,14 +2620,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Pierre Laques, Raymond Despiau, Jean Lecacheux",
 			"discoveryDate": "01/03/1980",
 			"alternativeName": "S/1980 S 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/helene"
+			"axialTilt": 0
 		},
 		{
 			"id": "telesto",
@@ -2808,14 +2654,12 @@
 			"sideralOrbit": 1.89,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Bradford A. Smith, Harold J. Reitsema, Stephen M. Larson, John W. Fountain",
 			"discoveryDate": "08/04/1980",
 			"alternativeName": "S/1980 S 13",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/telesto"
+			"axialTilt": 0
 		},
 		{
 			"id": "calypso",
@@ -2844,14 +2688,12 @@
 			"sideralOrbit": 1.89,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Dan Pascu, P. Kenneth Seidelmann, William A. Baum, Douglas Currie",
 			"discoveryDate": "13/03/1980",
 			"alternativeName": "S/1980 S 25",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/calypso"
+			"axialTilt": 0
 		},
 		{
 			"id": "atlas",
@@ -2880,14 +2722,12 @@
 			"sideralOrbit": 0.602,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Richard J. Terrile",
 			"discoveryDate": "12/11/1980",
 			"alternativeName": "S/1980 S 28",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/atlas"
+			"axialTilt": 0
 		},
 		{
 			"id": "promethee",
@@ -2916,14 +2756,12 @@
 			"sideralOrbit": 0.613,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Stewart A. Collins, D. Carlson",
 			"discoveryDate": "??/10/1980",
 			"alternativeName": "S/1980 S 27",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/promethee"
+			"axialTilt": 0
 		},
 		{
 			"id": "pandore",
@@ -2952,14 +2790,12 @@
 			"sideralOrbit": 0.629,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Stewart A. Collins",
 			"discoveryDate": "??/10/1980",
 			"alternativeName": "S/1980 S 26",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pandore"
+			"axialTilt": 0
 		},
 		{
 			"id": "pan",
@@ -2988,14 +2824,12 @@
 			"sideralOrbit": 0.575,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Mark R. Showalter",
 			"discoveryDate": "22/08/1981",
 			"alternativeName": "S/1981 S 13",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pan"
+			"axialTilt": 0
 		},
 		{
 			"id": "ymir",
@@ -3024,14 +2858,12 @@
 			"sideralOrbit": 1315.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Brett J. Gladman",
 			"discoveryDate": "07/08/2000",
 			"alternativeName": "S/2000 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ymir"
+			"axialTilt": 0
 		},
 		{
 			"id": "paaliaq",
@@ -3060,14 +2892,12 @@
 			"sideralOrbit": 686.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "07/08/2000",
 			"alternativeName": "S/2000 S 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/paaliaq"
+			"axialTilt": 0
 		},
 		{
 			"id": "tarvos",
@@ -3096,14 +2926,12 @@
 			"sideralOrbit": 926.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/tarvos"
+			"axialTilt": 0
 		},
 		{
 			"id": "ijiraq",
@@ -3132,14 +2960,12 @@
 			"sideralOrbit": 451.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ijiraq"
+			"axialTilt": 0
 		},
 		{
 			"id": "suttungr",
@@ -3168,14 +2994,12 @@
 			"sideralOrbit": 1016.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 12",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/suttungr"
+			"axialTilt": 0
 		},
 		{
 			"id": "kiviuq",
@@ -3204,14 +3028,12 @@
 			"sideralOrbit": 449.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Brett J. Gladman",
 			"discoveryDate": "07/08/2000",
 			"alternativeName": "S/2000 S 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/kiviuq"
+			"axialTilt": 0
 		},
 		{
 			"id": "mundilfari",
@@ -3240,14 +3062,12 @@
 			"sideralOrbit": 952.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mundilfari"
+			"axialTilt": 0
 		},
 		{
 			"id": "albiorix",
@@ -3276,14 +3096,12 @@
 			"sideralOrbit": 783.5,
 			"sideralRotation": 13.32,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "09/11/2000",
 			"alternativeName": "S/2000 S 11",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/albiorix"
+			"axialTilt": 0
 		},
 		{
 			"id": "skathi",
@@ -3312,14 +3130,12 @@
 			"sideralOrbit": 728.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/skathi"
+			"axialTilt": 0
 		},
 		{
 			"id": "erriapo",
@@ -3348,14 +3164,12 @@
 			"sideralOrbit": 871.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/erriapo"
+			"axialTilt": 0
 		},
 		{
 			"id": "siarnaq",
@@ -3384,14 +3198,12 @@
 			"sideralOrbit": 895.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/siarnaq"
+			"axialTilt": 0
 		},
 		{
 			"id": "thrymr",
@@ -3420,14 +3232,12 @@
 			"sideralOrbit": 1094.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman",
 			"discoveryDate": "23/09/2000",
 			"alternativeName": "S/2000 S 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/thrymr"
+			"axialTilt": 0
 		},
 		{
 			"id": "narvi",
@@ -3456,14 +3266,12 @@
 			"sideralOrbit": 1003.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna",
 			"discoveryDate": "05/02/2003",
 			"alternativeName": "S/2003 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/narvi"
+			"axialTilt": 0
 		},
 		{
 			"id": "methone",
@@ -3492,14 +3300,12 @@
 			"sideralOrbit": 1.01,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco, S&eacute;bastien Charnoz",
 			"discoveryDate": "01/06/2004",
 			"alternativeName": "S/2004 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/methone"
+			"axialTilt": 0
 		},
 		{
 			"id": "pallene",
@@ -3528,14 +3334,12 @@
 			"sideralOrbit": 1.14,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco, S&eacute;bastien Charnoz",
 			"discoveryDate": "01/06/2004",
 			"alternativeName": "S/2004 S 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pallene"
+			"axialTilt": 0
 		},
 		{
 			"id": "pollux",
@@ -3564,14 +3368,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco",
 			"discoveryDate": "21/10/2004",
 			"alternativeName": "S/2004 S 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pollux"
+			"axialTilt": 0
 		},
 		{
 			"id": "daphnis",
@@ -3600,14 +3402,12 @@
 			"sideralOrbit": 0.594,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco",
 			"discoveryDate": "01/05/2009",
 			"alternativeName": "S/2005 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/daphnis"
+			"axialTilt": 0
 		},
 		{
 			"id": "aegir",
@@ -3636,14 +3436,12 @@
 			"sideralOrbit": 1116.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/aegir"
+			"axialTilt": 0
 		},
 		{
 			"id": "bebhionn",
@@ -3672,14 +3470,12 @@
 			"sideralOrbit": 834.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 11",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/bebhionn"
+			"axialTilt": 0
 		},
 		{
 			"id": "bergelmir",
@@ -3708,14 +3504,12 @@
 			"sideralOrbit": 1005.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 15",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/bergelmir"
+			"axialTilt": 0
 		},
 		{
 			"id": "bestla",
@@ -3744,14 +3538,12 @@
 			"sideralOrbit": 1083.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "13/12/2004",
 			"alternativeName": "S/2004 S 18",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/bestla"
+			"axialTilt": 0
 		},
 		{
 			"id": "farbauti",
@@ -3780,14 +3572,12 @@
 			"sideralOrbit": 1086.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/farbauti"
+			"axialTilt": 0
 		},
 		{
 			"id": "fenrir",
@@ -3816,14 +3606,12 @@
 			"sideralOrbit": 1260.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "13/12/2004",
 			"alternativeName": "S/2004 S 16",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/fenrir"
+			"axialTilt": 0
 		},
 		{
 			"id": "fornjot",
@@ -3852,14 +3640,12 @@
 			"sideralOrbit": 1490.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/fornjot"
+			"axialTilt": 0
 		},
 		{
 			"id": "hati",
@@ -3888,14 +3674,12 @@
 			"sideralOrbit": 1038.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 14",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hati"
+			"axialTilt": 0
 		},
 		{
 			"id": "hyrrokkin",
@@ -3924,14 +3708,12 @@
 			"sideralOrbit": 931.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 19",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hyrrokkin"
+			"axialTilt": 0
 		},
 		{
 			"id": "kari",
@@ -3960,14 +3742,12 @@
 			"sideralOrbit": 1233.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2006 S 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/kari"
+			"axialTilt": 0
 		},
 		{
 			"id": "loge",
@@ -3996,14 +3776,12 @@
 			"sideralOrbit": 1312,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "13/12/2004",
 			"alternativeName": "S/2006 S 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/loge"
+			"axialTilt": 0
 		},
 		{
 			"id": "skoll",
@@ -4032,14 +3810,12 @@
 			"sideralOrbit": 878.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2006 S 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/skoll"
+			"axialTilt": 0
 		},
 		{
 			"id": "surtur",
@@ -4068,14 +3844,12 @@
 			"sideralOrbit": 1297.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2006 S 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/surtur"
+			"axialTilt": 0
 		},
 		{
 			"id": "anthe",
@@ -4104,14 +3878,12 @@
 			"sideralOrbit": 1.04,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco, l'&eacute;quipe Cassini",
 			"discoveryDate": "30/05/2007",
 			"alternativeName": "S/2007 S 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/anthe"
+			"axialTilt": 0
 		},
 		{
 			"id": "jarnsaxa",
@@ -4140,14 +3912,12 @@
 			"sideralOrbit": 964.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "05/01/2006",
 			"alternativeName": "S/2006 S 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/jarnsaxa"
+			"axialTilt": 0
 		},
 		{
 			"id": "greip",
@@ -4176,14 +3946,12 @@
 			"sideralOrbit": 921.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "05/01/2006",
 			"alternativeName": "S/2006 S 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/greip"
+			"axialTilt": 0
 		},
 		{
 			"id": "tarqeq",
@@ -4212,14 +3980,12 @@
 			"sideralOrbit": 887.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "05/01/2006",
 			"alternativeName": "S/2007 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/tarqeq"
+			"axialTilt": 0
 		},
 		{
 			"id": "egeon",
@@ -4248,14 +4014,12 @@
 			"sideralOrbit": 0.808,
 			"sideralRotation": 19.63,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco",
 			"discoveryDate": "15/08/2008",
 			"alternativeName": "S/2008 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/egeon"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s7",
@@ -4284,14 +4048,12 @@
 			"sideralOrbit": 1103,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s7"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s12",
@@ -4320,14 +4082,12 @@
 			"sideralOrbit": 1048,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 12",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s12"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s13",
@@ -4356,14 +4116,12 @@
 			"sideralOrbit": 906,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "12/12/2004",
 			"alternativeName": "S/2004 S 13",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s13"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s17",
@@ -4392,14 +4150,12 @@
 			"sideralOrbit": 986,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "13/12/2004",
 			"alternativeName": "S/2004 S 17",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s17"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2006s1",
@@ -4428,14 +4184,12 @@
 			"sideralOrbit": 970,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "04/01/2006",
 			"alternativeName": "S/2006 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s1"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2006s3",
@@ -4464,14 +4218,12 @@
 			"sideralOrbit": 1142,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "05/01/2006",
 			"alternativeName": "S/2006 S 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s3"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2007s2",
@@ -4500,14 +4252,12 @@
 			"sideralOrbit": 800,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "01/05/2007",
 			"alternativeName": "S/2007 S 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s2"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2007s3",
@@ -4536,14 +4286,12 @@
 			"sideralOrbit": 1100,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt, Jan Kleyna, Brian G. Marsden",
 			"discoveryDate": "01/05/2007",
 			"alternativeName": "S/2007 S 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s3"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2009s1",
@@ -4572,14 +4320,12 @@
 			"sideralOrbit": 0.4715,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco",
 			"discoveryDate": "26/07/2009",
 			"alternativeName": "S/2009 S 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2009s1"
+			"axialTilt": 0
 		},
 		{
 			"id": "ariel",
@@ -4608,14 +4354,12 @@
 			"sideralOrbit": 2.52038,
 			"sideralRotation": 60.4891,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "William Lassell",
 			"discoveryDate": "24/10/1851",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ariel"
+			"axialTilt": 0
 		},
 		{
 			"id": "umbriel",
@@ -4644,14 +4388,12 @@
 			"sideralOrbit": 4.14418,
 			"sideralRotation": 99.499,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "William Lassell",
 			"discoveryDate": "24/10/1851",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/umbriel"
+			"axialTilt": 0
 		},
 		{
 			"id": "titania",
@@ -4680,14 +4422,12 @@
 			"sideralOrbit": 8.70587,
 			"sideralRotation": 208.9408,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "William Herschel",
 			"discoveryDate": "11/01/1787",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/titania"
+			"axialTilt": 0
 		},
 		{
 			"id": "oberon",
@@ -4716,14 +4456,12 @@
 			"sideralOrbit": 13.46323,
 			"sideralRotation": 323.1176,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "William Herschel",
 			"discoveryDate": "11/01/1787",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/oberon"
+			"axialTilt": 0
 		},
 		{
 			"id": "miranda",
@@ -4752,14 +4490,12 @@
 			"sideralOrbit": 1.41348,
 			"sideralRotation": 33.9235,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Gerard Kuiper",
 			"discoveryDate": "16/02/1948",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/miranda"
+			"axialTilt": 0
 		},
 		{
 			"id": "cordelia",
@@ -4788,14 +4524,12 @@
 			"sideralOrbit": 0.33503,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Richard J. Terrile",
 			"discoveryDate": "20/01/1986",
 			"alternativeName": "S/1986 U 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cordelia"
+			"axialTilt": 0
 		},
 		{
 			"id": "ophelia",
@@ -4824,14 +4558,12 @@
 			"sideralOrbit": 0.3764,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Richard J. Terrile",
 			"discoveryDate": "20/01/1986",
 			"alternativeName": "S/1986 U 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ophelia"
+			"axialTilt": 0
 		},
 		{
 			"id": "bianca",
@@ -4860,14 +4592,12 @@
 			"sideralOrbit": 0.43458,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Bradford A. Smith",
 			"discoveryDate": "23/01/1986",
 			"alternativeName": "S/1986 U 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/bianca"
+			"axialTilt": 0
 		},
 		{
 			"id": "cressida",
@@ -4896,14 +4626,12 @@
 			"sideralOrbit": 0.46357,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "09/01/1986",
 			"alternativeName": "S/1986 U 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cressida"
+			"axialTilt": 0
 		},
 		{
 			"id": "desdemona",
@@ -4932,14 +4660,12 @@
 			"sideralOrbit": 0.47365,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "13/01/1986",
 			"alternativeName": "S/1986 U 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/desdemona"
+			"axialTilt": 0
 		},
 		{
 			"id": "juliet",
@@ -4968,14 +4694,12 @@
 			"sideralOrbit": 0.49307,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "03/01/1986",
 			"alternativeName": "S/1986 U 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/juliet"
+			"axialTilt": 0
 		},
 		{
 			"id": "portia",
@@ -5004,14 +4728,12 @@
 			"sideralOrbit": 0.5132,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "03/01/1986",
 			"alternativeName": "S/1986 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/portia"
+			"axialTilt": 0
 		},
 		{
 			"id": "rosalind",
@@ -5040,14 +4762,12 @@
 			"sideralOrbit": 0.55846,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "13/01/1986",
 			"alternativeName": "S/1986 U 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/rosalind"
+			"axialTilt": 0
 		},
 		{
 			"id": "belinda",
@@ -5076,14 +4796,12 @@
 			"sideralOrbit": 0.62353,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "13/01/1986",
 			"alternativeName": "S/1986 U 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/belinda"
+			"axialTilt": 0
 		},
 		{
 			"id": "puck",
@@ -5112,14 +4830,12 @@
 			"sideralOrbit": 0.76183,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "30/12/1985",
 			"alternativeName": "S/1985 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/puck"
+			"axialTilt": 0
 		},
 		{
 			"id": "caliban",
@@ -5148,14 +4864,12 @@
 			"sideralOrbit": -579.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Brett J. Gladman, Philip D. Nicholson, Joseph A. Burns, John J. Kavelaars",
 			"discoveryDate": "06/09/1997",
 			"alternativeName": "S/1997 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/caliban"
+			"axialTilt": 0
 		},
 		{
 			"id": "sycorax",
@@ -5184,14 +4898,12 @@
 			"sideralOrbit": -1283.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Philip D. Nicholson, Brett J. Gladman, Joseph A. Burns, John J. Kavelaars",
 			"discoveryDate": "06/09/1997",
 			"alternativeName": "S/1997 U 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sycorax"
+			"axialTilt": 0
 		},
 		{
 			"id": "prospero",
@@ -5220,14 +4932,12 @@
 			"sideralOrbit": -1977.3,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Brett J. Gladman, Jean-Marc Petit, Hans Scholl",
 			"discoveryDate": "18/07/1999",
 			"alternativeName": "S/1999 U 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/prospero"
+			"axialTilt": 0
 		},
 		{
 			"id": "setebos",
@@ -5256,14 +4966,12 @@
 			"sideralOrbit": -2234.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "John J. Kavelaars, Brett J. Gladman, Matthew J. Holman, Jean-Marc Petit, Hans Scholl",
 			"discoveryDate": "18/07/1999",
 			"alternativeName": "S/1999 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/setebos"
+			"axialTilt": 0
 		},
 		{
 			"id": "stephano",
@@ -5292,14 +5000,12 @@
 			"sideralOrbit": -676.5,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Brett J. Gladman, Matthew J. Holman, John J. Kavelaars, Jean-Marc Petit, Hans Scholl",
 			"discoveryDate": "18/07/1999",
 			"alternativeName": "S/1999 U 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/stephano"
+			"axialTilt": 0
 		},
 		{
 			"id": "trinculo",
@@ -5328,14 +5034,12 @@
 			"sideralOrbit": -758.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Dan Milisavljevic",
 			"discoveryDate": "13/08/2001",
 			"alternativeName": "S/2001 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/trinculo"
+			"axialTilt": 0
 		},
 		{
 			"id": "francisco",
@@ -5364,14 +5068,12 @@
 			"sideralOrbit": -266.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Dan Milisavljevic, Brett J. Gladman",
 			"discoveryDate": "13/08/2001",
 			"alternativeName": "S/2001 U 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/francisco"
+			"axialTilt": 0
 		},
 		{
 			"id": "margaret",
@@ -5400,14 +5102,12 @@
 			"sideralOrbit": 1694.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "29/08/2003",
 			"alternativeName": "S/2003 U 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/margaret"
+			"axialTilt": 0
 		},
 		{
 			"id": "ferdinand",
@@ -5436,14 +5136,12 @@
 			"sideralOrbit": -2823.4,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Dan Milisavljevic, Brett J. Gladman",
 			"discoveryDate": "13/08/2001",
 			"alternativeName": "S/2001 U 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ferdinand"
+			"axialTilt": 0
 		},
 		{
 			"id": "perdita",
@@ -5472,14 +5170,12 @@
 			"sideralOrbit": 0.638,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Erich Karkoschka",
 			"discoveryDate": "18/01/1986",
 			"alternativeName": "S/1986 U 10",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/perdita"
+			"axialTilt": 0
 		},
 		{
 			"id": "mab",
@@ -5508,14 +5204,12 @@
 			"sideralOrbit": 0.923,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Mark R. Showalter, Jack J. Lissauer",
 			"discoveryDate": "25/08/2003",
 			"alternativeName": "S/2003 U 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mab"
+			"axialTilt": 0
 		},
 		{
 			"id": "cupid",
@@ -5544,14 +5238,12 @@
 			"sideralOrbit": 0.613,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "uranus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+				"planet": "uranus"
 			},
 			"discoveredBy": "Mark R. Showalter, Jack J. Lissauer",
 			"discoveryDate": "25/08/2003",
 			"alternativeName": "S/2003 U 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cupid"
+			"axialTilt": 0
 		},
 		{
 			"id": "triton",
@@ -5580,14 +5272,12 @@
 			"sideralOrbit": 5.87685,
 			"sideralRotation": 141.0444,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "William Lassell",
 			"discoveryDate": "10/10/1846",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/triton"
+			"axialTilt": 0
 		},
 		{
 			"id": "nereide",
@@ -5616,14 +5306,12 @@
 			"sideralOrbit": 360.13619,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Gerard Kuiper",
 			"discoveryDate": "01/05/1949",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/nereide"
+			"axialTilt": 0
 		},
 		{
 			"id": "naiade",
@@ -5652,14 +5340,12 @@
 			"sideralOrbit": 0.2944,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Richard J. Terrile",
 			"discoveryDate": "18/09/1989",
 			"alternativeName": "S/1989 N 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/naiade"
+			"axialTilt": 0
 		},
 		{
 			"id": "thalassa",
@@ -5688,14 +5374,12 @@
 			"sideralOrbit": 0.31149,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Richard J. Terrile",
 			"discoveryDate": "18/09/1989",
 			"alternativeName": "S/1989 N 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/thalassa"
+			"axialTilt": 0
 		},
 		{
 			"id": "despina",
@@ -5724,14 +5408,12 @@
 			"sideralOrbit": 0.33466,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "28/07/1989",
 			"alternativeName": "S/1989 N 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/despina"
+			"axialTilt": 0
 		},
 		{
 			"id": "galatee",
@@ -5760,14 +5442,12 @@
 			"sideralOrbit": 0.42875,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Stephen P. Synnott",
 			"discoveryDate": "28/07/1989",
 			"alternativeName": "S/1989 N 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/galatee"
+			"axialTilt": 0
 		},
 		{
 			"id": "larissa",
@@ -5796,14 +5476,12 @@
 			"sideralOrbit": 0.55465,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Harold J. Reitsema, William B. Hubbard, Larry A. Lebofsky, David J. Tholen",
 			"discoveryDate": "24/05/1981",
 			"alternativeName": "S/1989 N 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/larissa"
+			"axialTilt": 0
 		},
 		{
 			"id": "protee",
@@ -5832,14 +5510,12 @@
 			"sideralOrbit": 1.12232,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Stephen P. Synnott, Bradford A. Smith",
 			"discoveryDate": "16/06/1989",
 			"alternativeName": "S/1989 N 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/protee"
+			"axialTilt": 0
 		},
 		{
 			"id": "halimede",
@@ -5868,14 +5544,12 @@
 			"sideralOrbit": 1879.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Tommy Grav, Wesley C. Fraser, Dan Milisavljevic",
 			"discoveryDate": "14/08/2002",
 			"alternativeName": "S/2002 N 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/halimede"
+			"axialTilt": 0
 		},
 		{
 			"id": "psamathee",
@@ -5904,14 +5578,12 @@
 			"sideralOrbit": 9115.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Scott S. Sheppard",
 			"discoveryDate": "19/08/2003",
 			"alternativeName": "S/2003 N 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/psamathee"
+			"axialTilt": 0
 		},
 		{
 			"id": "sao",
@@ -5940,14 +5612,12 @@
 			"sideralOrbit": 2914.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Tommy Grav, Wesley C. Fraser, Dan Milisavljevic",
 			"discoveryDate": "14/08/2002",
 			"alternativeName": "S/2002 N 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sao"
+			"axialTilt": 0
 		},
 		{
 			"id": "laomedie",
@@ -5976,14 +5646,12 @@
 			"sideralOrbit": 3167.9,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Matthew J. Holman, John J. Kavelaars, Tommy Grav, Wesley C. Fraser, Dan Milisavljevic",
 			"discoveryDate": "13/08/2002",
 			"alternativeName": "S/2002 N 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/laomedie"
+			"axialTilt": 0
 		},
 		{
 			"id": "neso",
@@ -6012,14 +5680,12 @@
 			"sideralOrbit": 9374,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Matthew J. Holman",
 			"discoveryDate": "14/08/2002",
 			"alternativeName": "S/2002 N 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/neso"
+			"axialTilt": 0
 		},
 		{
 			"id": "charon",
@@ -6048,14 +5714,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "pluton",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+				"planet": "pluton"
 			},
 			"discoveredBy": "James W. Christy",
 			"discoveryDate": "13/04/1978",
 			"alternativeName": "S/1978 P1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/charon"
+			"axialTilt": 0
 		},
 		{
 			"id": "nix",
@@ -6084,14 +5748,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "pluton",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+				"planet": "pluton"
 			},
 			"discoveredBy": "Hubble Space Telescope Pluto Companion Search Team",
 			"discoveryDate": "15/05/2005",
 			"alternativeName": "S/2005 P2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/nix"
+			"axialTilt": 0
 		},
 		{
 			"id": "hydra",
@@ -6120,14 +5782,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "pluton",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+				"planet": "pluton"
 			},
 			"discoveredBy": "Hubble Space Telescope Pluto Companion Search Team",
 			"discoveryDate": "15/05/2005",
 			"alternativeName": "S/2005 P1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hydra"
+			"axialTilt": 0
 		},
 		{
 			"id": "namaka",
@@ -6156,14 +5816,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "haumea",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/haumea"
+				"planet": "haumea"
 			},
 			"discoveredBy": "Michael E. Brown",
 			"discoveryDate": "30/06/2005",
 			"alternativeName": "S/2005 (2003 EL61) 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/namaka"
+			"axialTilt": 0
 		},
 		{
 			"id": "hiiaka",
@@ -6192,14 +5850,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "haumea",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/haumea"
+				"planet": "haumea"
 			},
 			"discoveredBy": "Michael E. Brown",
 			"discoveryDate": "26/01/2005",
 			"alternativeName": "S/2005 (2003 EL61) 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hiiaka"
+			"axialTilt": 0
 		},
 		{
 			"id": "dysnomie",
@@ -6228,14 +5884,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "eris",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/eris"
+				"planet": "eris"
 			},
 			"discoveredBy": "Michael E. Brown",
 			"discoveryDate": "??/09/2005",
 			"alternativeName": "S/2005 (2003 UB313) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/dysnomie"
+			"axialTilt": 0
 		},
 		{
 			"id": "dia",
@@ -6264,14 +5918,12 @@
 			"sideralOrbit": 287,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard, David C. Jewitt",
 			"discoveryDate": "27/12/2000",
 			"alternativeName": "S/2000 J 11",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/dia"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s3",
@@ -6300,14 +5952,12 @@
 			"sideralOrbit": 0.62,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carl Murray",
 			"discoveryDate": "21/06/2004",
 			"alternativeName": "S/2004 S 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s3"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s4",
@@ -6336,14 +5986,12 @@
 			"sideralOrbit": 0.61,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carl Murray",
 			"discoveryDate": "09/09/2004",
 			"alternativeName": "S/2004 S 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s4"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s6",
@@ -6372,14 +6020,12 @@
 			"sideralOrbit": 0.61,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "Carolyn C. Porco",
 			"discoveryDate": "28/10/2004",
 			"alternativeName": "S/2004 S 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s6"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2010j1",
@@ -6408,14 +6054,12 @@
 			"sideralOrbit": 723.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Jacobson, Brozovic, Gladman, Alexandersen",
 			"discoveryDate": "07/09/2010",
 			"alternativeName": "S/2010 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j1"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2010j2",
@@ -6444,14 +6088,12 @@
 			"sideralOrbit": 588.1,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Christian Veillet",
 			"discoveryDate": "08/09/2010",
 			"alternativeName": "S/2010 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j2"
+			"axialTilt": 0
 		},
 		{
 			"id": "ceres",
@@ -6486,8 +6128,7 @@
 			"discoveredBy": "Giuseppe Piazzi",
 			"discoveryDate": "01/01/1801",
 			"alternativeName": "A899 OF - 1943 XB",
-			"axialTilt": 3,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ceres"
+			"axialTilt": 3
 		},
 		{
 			"id": "hebe",
@@ -6519,8 +6160,7 @@
 			"discoveredBy": "Karl Ludwig Hencke",
 			"discoveryDate": "01/07/1847",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hebe"
+			"axialTilt": 0
 		},
 		{
 			"id": "lempo",
@@ -6552,8 +6192,7 @@
 			"discoveredBy": "E. P. Rubenstein, L.-G. Strolger",
 			"discoveryDate": "01/10/1999",
 			"alternativeName": "1999 TC36",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/lempo"
+			"axialTilt": 0
 		},
 		{
 			"id": "petitprince",
@@ -6582,14 +6221,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "eugenia",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/eugenia"
+				"planet": "eugenia"
 			},
 			"discoveredBy": "W. J. Merline, L. M. Close, C. Dumas, C. R. Chapman, F. Roddier, F. Menard, D. C. Slater, G. Duvert, J. C. Shelton, T. Morgan",
 			"discoveryDate": "01/11/1999",
 			"alternativeName": "S/1998 (45) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/petitprince"
+			"axialTilt": 0
 		},
 		{
 			"id": "pulcova",
@@ -6621,8 +6258,7 @@
 			"discoveredBy": "G. N. Neujmin",
 			"discoveryDate": "03/09/1913",
 			"alternativeName": "1913 SQ",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pulcova"
+			"axialTilt": 0
 		},
 		{
 			"id": "toutatis",
@@ -6654,8 +6290,7 @@
 			"discoveredBy": "Christian Pollas",
 			"discoveryDate": "04/01/1989",
 			"alternativeName": "1989 AC - 1934 CT",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/toutatis"
+			"axialTilt": 0
 		},
 		{
 			"id": "quaoar",
@@ -6687,8 +6322,7 @@
 			"discoveredBy": "Chadwick Trujillo, Michael E. Brown",
 			"discoveryDate": "04/06/2002",
 			"alternativeName": "2002 LM60",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/quaoar"
+			"axialTilt": 0
 		},
 		{
 			"id": "steins",
@@ -6720,8 +6354,7 @@
 			"discoveredBy": "N. S. Tchernykh",
 			"discoveryDate": "04/11/1969",
 			"alternativeName": "1969 VC - 1954 QL",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/steins"
+			"axialTilt": 0
 		},
 		{
 			"id": "eris",
@@ -6730,8 +6363,7 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Dysnomie",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/dysnomie"
+					"moon": "Dysnomie"
 				}
 			],
 			"semimajorAxis": 10180122852,
@@ -6761,8 +6393,7 @@
 			"discoveredBy": "Michael E. Brown, Chadwick Trujillo, David L. Rabinowitz",
 			"discoveryDate": "05/01/2005",
 			"alternativeName": "2003 UB313",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eris"
+			"axialTilt": 0
 		},
 		{
 			"id": "astree",
@@ -6794,8 +6425,7 @@
 			"discoveredBy": "Karl Ludwig Hencke",
 			"discoveryDate": "08/12/1845",
 			"alternativeName": "1969 SE",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/astree"
+			"axialTilt": 0
 		},
 		{
 			"id": "pholus",
@@ -6827,8 +6457,7 @@
 			"discoveredBy": "David Rabinowitz / Spacewatch",
 			"discoveryDate": "09/01/1992",
 			"alternativeName": "1992 AD",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pholus"
+			"axialTilt": 0
 		},
 		{
 			"id": "castalia",
@@ -6860,8 +6489,7 @@
 			"discoveredBy": "Eleanor F. Helin",
 			"discoveryDate": "09/08/1989",
 			"alternativeName": "1989 PB",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/castalia"
+			"axialTilt": 0
 		},
 		{
 			"id": "remus",
@@ -6890,14 +6518,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "sylvia",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/sylvia"
+				"planet": "sylvia"
 			},
 			"discoveredBy": "Franck Marchis, Pascal Descamps, Daniel Hestroffer, J&eacute;rome Berthier",
 			"discoveryDate": "09/08/2005",
 			"alternativeName": "S/2004 (87) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/remus"
+			"axialTilt": 0
 		},
 		{
 			"id": "hector",
@@ -6929,8 +6555,7 @@
 			"discoveredBy": "August Kopff",
 			"discoveryDate": "10/02/1907",
 			"alternativeName": "1907 XM - 1948 VD",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hector"
+			"axialTilt": 0
 		},
 		{
 			"id": "kleopatra",
@@ -6962,8 +6587,7 @@
 			"discoveredBy": "Johann Palisa",
 			"discoveryDate": "10/04/1880",
 			"alternativeName": "A905 OA - A910 RA",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/kleopatra"
+			"axialTilt": 0
 		},
 		{
 			"id": "cruithne",
@@ -6995,8 +6619,7 @@
 			"discoveredBy": "J. Duncan Waldron, Giovanni de Sanctis, Richard M. West",
 			"discoveryDate": "10/10/1986",
 			"alternativeName": "1983 UH - 1986 TO",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cruithne"
+			"axialTilt": 0
 		},
 		{
 			"id": "junon",
@@ -7028,8 +6651,7 @@
 			"discoveredBy": "Karl L. Harding",
 			"discoveryDate": "12/01/1804",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/junon"
+			"axialTilt": 0
 		},
 		{
 			"id": "hygie",
@@ -7061,8 +6683,7 @@
 			"discoveredBy": "Annibale de Gasparis",
 			"discoveryDate": "12/04/1849",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hygie"
+			"axialTilt": 0
 		},
 		{
 			"id": "lutetia",
@@ -7094,8 +6715,7 @@
 			"discoveredBy": "H. M. S. Goldschmidt",
 			"discoveryDate": "12/11/1852",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/lutetia"
+			"axialTilt": 0
 		},
 		{
 			"id": "mathilde",
@@ -7127,8 +6747,7 @@
 			"discoveredBy": "Johann Palisa",
 			"discoveryDate": "12/11/1885",
 			"alternativeName": "1949 OL1 - A915 TN",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mathilde"
+			"axialTilt": 0
 		},
 		{
 			"id": "uranus",
@@ -7137,112 +6756,85 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Ariel",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ariel"
+					"moon": "Ariel"
 				},
 				{
-					"moon": "Umbriel",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/umbriel"
+					"moon": "Umbriel"
 				},
 				{
-					"moon": "Titania",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/titania"
+					"moon": "Titania"
 				},
 				{
-					"moon": "Obéron",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/oberon"
+					"moon": "Obéron"
 				},
 				{
-					"moon": "Miranda",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/miranda"
+					"moon": "Miranda"
 				},
 				{
-					"moon": "Cordélia",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/cordelia"
+					"moon": "Cordélia"
 				},
 				{
-					"moon": "Ophélie",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ophelia"
+					"moon": "Ophélie"
 				},
 				{
-					"moon": "Bianca",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/bianca"
+					"moon": "Bianca"
 				},
 				{
-					"moon": "Cressida",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/cressida"
+					"moon": "Cressida"
 				},
 				{
-					"moon": "Desdémone",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/desdemona"
+					"moon": "Desdémone"
 				},
 				{
-					"moon": "Juliette",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/juliet"
+					"moon": "Juliette"
 				},
 				{
-					"moon": "Portia",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/portia"
+					"moon": "Portia"
 				},
 				{
-					"moon": "Rosalinde",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/rosalind"
+					"moon": "Rosalinde"
 				},
 				{
-					"moon": "Belinda",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/belinda"
+					"moon": "Belinda"
 				},
 				{
-					"moon": "Puck",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/puck"
+					"moon": "Puck"
 				},
 				{
-					"moon": "Caliban",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/caliban"
+					"moon": "Caliban"
 				},
 				{
-					"moon": "Sycorax",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/sycorax"
+					"moon": "Sycorax"
 				},
 				{
-					"moon": "Prospero",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/prospero"
+					"moon": "Prospero"
 				},
 				{
-					"moon": "Setebos",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/setebos"
+					"moon": "Setebos"
 				},
 				{
-					"moon": "Stephano",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/stephano"
+					"moon": "Stephano"
 				},
 				{
-					"moon": "Trinculo",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/trinculo"
+					"moon": "Trinculo"
 				},
 				{
-					"moon": "Francisco",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/francisco"
+					"moon": "Francisco"
 				},
 				{
-					"moon": "Margaret",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/margaret"
+					"moon": "Margaret"
 				},
 				{
-					"moon": "Ferdinand",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ferdinand"
+					"moon": "Ferdinand"
 				},
 				{
-					"moon": "Perdita",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/perdita"
+					"moon": "Perdita"
 				},
 				{
-					"moon": "Mab",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/mab"
+					"moon": "Mab"
 				},
 				{
-					"moon": "Cupid",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/cupid"
+					"moon": "Cupid"
 				}
 			],
 			"semimajorAxis": 2870658186,
@@ -7272,8 +6864,7 @@
 			"discoveredBy": "William Herschel",
 			"discoveryDate": "13/03/1781",
 			"alternativeName": "",
-			"axialTilt": 97.77,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus"
+			"axialTilt": 97.77
 		},
 		{
 			"id": "iris",
@@ -7305,8 +6896,7 @@
 			"discoveredBy": "John Russell Hind",
 			"discoveryDate": "13/08/1847",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/iris"
+			"axialTilt": 0
 		},
 		{
 			"id": "eros",
@@ -7338,8 +6928,7 @@
 			"discoveredBy": "Gustav Witt",
 			"discoveryDate": "13/08/1898",
 			"alternativeName": "1898 DQ - 1956 PC",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eros"
+			"axialTilt": 0
 		},
 		{
 			"id": "vanth",
@@ -7368,14 +6957,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "orcus",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/orcus"
+				"planet": "orcus"
 			},
 			"discoveredBy": "Michael E. Brown, T.A. Suer",
 			"discoveryDate": "13/11/2005",
 			"alternativeName": "S/2005 (90482) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/vanth"
+			"axialTilt": 0
 		},
 		{
 			"id": "sedna",
@@ -7407,8 +6994,7 @@
 			"discoveredBy": "Chadwick Trujillo, Michael E. Brown, David L. Rabinowitz",
 			"discoveryDate": "14/11/2003",
 			"alternativeName": "2003 VB12",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sedna"
+			"axialTilt": 0
 		},
 		{
 			"id": "chariklo",
@@ -7440,8 +7026,7 @@
 			"discoveredBy": "Spacewatch",
 			"discoveryDate": "15/02/1997",
 			"alternativeName": "1997 CU26",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/chariklo"
+			"axialTilt": 0
 		},
 		{
 			"id": "sylvia",
@@ -7473,8 +7058,7 @@
 			"discoveredBy": "Norman Robert Pogson",
 			"discoveryDate": "16/05/1866",
 			"alternativeName": "A909 GA",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sylvia"
+			"axialTilt": 0
 		},
 		{
 			"id": "dactyl",
@@ -7503,14 +7087,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "ida",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/ida"
+				"planet": "ida"
 			},
 			"discoveredBy": "Ann Harch",
 			"discoveryDate": "17/02/1994",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/dactyl"
+			"axialTilt": 0
 		},
 		{
 			"id": "orcus",
@@ -7542,8 +7124,7 @@
 			"discoveredBy": "Michael E. Brown, Chadwick Trujillo, David L. Rabinowitz",
 			"discoveryDate": "17/02/2004",
 			"alternativeName": "2004 DW",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/orcus"
+			"axialTilt": 0
 		},
 		{
 			"id": "pluton",
@@ -7552,24 +7133,19 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Charon",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/charon"
+					"moon": "Charon"
 				},
 				{
-					"moon": "Nix",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/nix"
+					"moon": "Nix"
 				},
 				{
-					"moon": "Hydra",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hydra"
+					"moon": "Hydra"
 				},
 				{
-					"moon": "Kerberos",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/kerberos"
+					"moon": "Kerberos"
 				},
 				{
-					"moon": "Styx",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/styx"
+					"moon": "Styx"
 				}
 			],
 			"semimajorAxis": 5906440628,
@@ -7599,8 +7175,7 @@
 			"discoveredBy": "Clyde W. Tombaugh",
 			"discoveryDate": "18/02/1930",
 			"alternativeName": "",
-			"axialTilt": 122.5,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+			"axialTilt": 122.5
 		},
 		{
 			"id": "damocles",
@@ -7632,8 +7207,7 @@
 			"discoveredBy": "Robert H. McNaught",
 			"discoveryDate": "18/02/1991",
 			"alternativeName": "1991 DA",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/damocles"
+			"axialTilt": 0
 		},
 		{
 			"id": "romulus",
@@ -7662,14 +7236,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "sylvia",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/sylvia"
+				"planet": "sylvia"
 			},
 			"discoveredBy": "Michael E. Brown, Jean-Luc Margot",
 			"discoveryDate": "18/02/2001",
 			"alternativeName": "S/2004 (87) 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/romulus"
+			"axialTilt": 0
 		},
 		{
 			"id": "alexhelios",
@@ -7698,14 +7270,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "kleopatra",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/kleopatra"
+				"planet": "kleopatra"
 			},
 			"discoveredBy": "F. Marchis, P. Descamps, J. Berthier, F. Vachier, J. P. Emery",
 			"discoveryDate": "18/09/2008",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/alexhelios"
+			"axialTilt": 0
 		},
 		{
 			"id": "cleoselene",
@@ -7734,14 +7304,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "kleopatra",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/kleopatra"
+				"planet": "kleopatra"
 			},
 			"discoveredBy": "F. Marchis, P. Descamps, J. Berthier, F. Vachier, J. P. Emery",
 			"discoveryDate": "18/09/2008",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/cleoselene"
+			"axialTilt": 0
 		},
 		{
 			"id": "flore",
@@ -7773,8 +7341,7 @@
 			"discoveredBy": "John Russell Hind",
 			"discoveryDate": "18/10/1847",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/flore"
+			"axialTilt": 0
 		},
 		{
 			"id": "chiron",
@@ -7806,8 +7373,7 @@
 			"discoveredBy": "Charles T. Kowal",
 			"discoveryDate": "18/10/1977",
 			"alternativeName": "1977 UB",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/chiron"
+			"axialTilt": 0
 		},
 		{
 			"id": "eureka",
@@ -7839,8 +7405,7 @@
 			"discoveredBy": "David H. Levy",
 			"discoveryDate": "20/06/1990",
 			"alternativeName": "1990 MB",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eureka"
+			"axialTilt": 0
 		},
 		{
 			"id": "achille",
@@ -7872,8 +7437,7 @@
 			"discoveredBy": "Max Wolf",
 			"discoveryDate": "22/02/1906",
 			"alternativeName": "1906 TG",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/achille"
+			"axialTilt": 0
 		},
 		{
 			"id": "weywot",
@@ -7902,14 +7466,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "quaoar",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/quaoar"
+				"planet": "quaoar"
 			},
 			"discoveredBy": "Michael E. Brown, T.A. Suer",
 			"discoveryDate": "22/02/2007",
 			"alternativeName": "S/2006 (50000) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/weywot"
+			"axialTilt": 0
 		},
 		{
 			"id": "ixion",
@@ -7941,8 +7503,7 @@
 			"discoveredBy": "Deep Ecliptic Survey",
 			"discoveryDate": "22/05/2001",
 			"alternativeName": "2001 KX76",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ixion"
+			"axialTilt": 0
 		},
 		{
 			"id": "neptune",
@@ -7951,60 +7512,46 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Triton",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/triton"
+					"moon": "Triton"
 				},
 				{
-					"moon": "Néreïde",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/nereide"
+					"moon": "Néreïde"
 				},
 				{
-					"moon": "Naïade",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/naiade"
+					"moon": "Naïade"
 				},
 				{
-					"moon": "Thalassa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/thalassa"
+					"moon": "Thalassa"
 				},
 				{
-					"moon": "Despina",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/despina"
+					"moon": "Despina"
 				},
 				{
-					"moon": "Galatée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/galatee"
+					"moon": "Galatée"
 				},
 				{
-					"moon": "Larissa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/larissa"
+					"moon": "Larissa"
 				},
 				{
-					"moon": "Protée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/protee"
+					"moon": "Protée"
 				},
 				{
-					"moon": "Halimède",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/halimede"
+					"moon": "Halimède"
 				},
 				{
-					"moon": "Psamathée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/psamathee"
+					"moon": "Psamathée"
 				},
 				{
-					"moon": "Sao",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/sao"
+					"moon": "Sao"
 				},
 				{
-					"moon": "Laomédie",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/laomedie"
+					"moon": "Laomédie"
 				},
 				{
-					"moon": "Néso",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/neso"
+					"moon": "Néso"
 				},
 				{
-					"moon": "Hippocampe",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hippocampe"
+					"moon": "Hippocampe"
 				}
 			],
 			"semimajorAxis": 4498396441,
@@ -8034,8 +7581,7 @@
 			"discoveredBy": "Urbain Le Verrier, John Couch Adams, Johann Galle",
 			"discoveryDate": "23/09/1846",
 			"alternativeName": "",
-			"axialTilt": 28.3,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+			"axialTilt": 28.3
 		},
 		{
 			"id": "sl9",
@@ -8067,8 +7613,7 @@
 			"discoveredBy": "Carolyn, Eugene M. Shoemaker, David Levy",
 			"discoveryDate": "24/03/1993",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/sl9"
+			"axialTilt": 0
 		},
 		{
 			"id": "9metis",
@@ -8100,8 +7645,7 @@
 			"discoveredBy": "Andrew Graham",
 			"discoveryDate": "25/04/1848",
 			"alternativeName": "1974 QU 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/9metis"
+			"axialTilt": 0
 		},
 		{
 			"id": "haumea",
@@ -8110,12 +7654,10 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Namaka",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/namaka"
+					"moon": "Namaka"
 				},
 				{
-					"moon": "Hi'iaka",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hiiaka"
+					"moon": "Hi'iaka"
 				}
 			],
 			"semimajorAxis": 6432011461,
@@ -8145,8 +7687,7 @@
 			"discoveredBy": "Michael E. Brown, Jos&eacute; Luis Ortiz Moreno",
 			"discoveryDate": "28/12/2004",
 			"alternativeName": "2003 EL61",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/haumea"
+			"axialTilt": 0
 		},
 		{
 			"id": "nessus",
@@ -8178,8 +7719,7 @@
 			"discoveredBy": "Spacewatch",
 			"discoveryDate": "26/04/1993",
 			"alternativeName": "1993 HA2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/nessus"
+			"axialTilt": 0
 		},
 		{
 			"id": "itokawa",
@@ -8211,8 +7751,7 @@
 			"discoveredBy": "LINEAR",
 			"discoveryDate": "26/09/1998",
 			"alternativeName": "1998 SF36",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/itokawa"
+			"axialTilt": 0
 		},
 		{
 			"id": "hylonome",
@@ -8244,8 +7783,7 @@
 			"discoveredBy": "David C. Jewitt, Jane X. Luu",
 			"discoveryDate": "27/02/1995",
 			"alternativeName": "1995 DW2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hylonome"
+			"axialTilt": 0
 		},
 		{
 			"id": "eugenia",
@@ -8277,8 +7815,7 @@
 			"discoveredBy": "Hermann Goldschmidt",
 			"discoveryDate": "27/06/1857",
 			"alternativeName": "1941 BN",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/eugenia"
+			"axialTilt": 0
 		},
 		{
 			"id": "2006SQ372",
@@ -8310,8 +7847,7 @@
 			"discoveredBy": "Andrew Becker, Nathan Kaib",
 			"discoveryDate": "27/09/2006",
 			"alternativeName": "2006 SQ372",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/2006SQ372"
+			"axialTilt": 0
 		},
 		{
 			"id": "pallas",
@@ -8343,8 +7879,7 @@
 			"discoveredBy": "Heinrich Olbers",
 			"discoveryDate": "28/03/1802",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pallas"
+			"axialTilt": 0
 		},
 		{
 			"id": "asbolus",
@@ -8376,8 +7911,7 @@
 			"discoveredBy": "James V. Scotti, Robert Jedicke/ Spacewatch",
 			"discoveryDate": "28/03/1995",
 			"alternativeName": "1995 GO",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/asbolus"
+			"axialTilt": 0
 		},
 		{
 			"id": "varuna",
@@ -8409,8 +7943,7 @@
 			"discoveredBy": "Robert S. McMillan Spacewatch",
 			"discoveryDate": "28/11/2000",
 			"alternativeName": "2000 WR106",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/varuna"
+			"axialTilt": 0
 		},
 		{
 			"id": "vesta",
@@ -8442,8 +7975,7 @@
 			"discoveredBy": "H. W. Olbers",
 			"discoveryDate": "29/03/1807",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/vesta"
+			"axialTilt": 0
 		},
 		{
 			"id": "ida",
@@ -8475,8 +8007,7 @@
 			"discoveredBy": "Johann Palisa",
 			"discoveryDate": "29/09/1884",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ida"
+			"axialTilt": 0
 		},
 		{
 			"id": "hyakutake",
@@ -8508,8 +8039,7 @@
 			"discoveredBy": "Yuji Hyakutake",
 			"discoveryDate": "30/01/1996",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hyakutake"
+			"axialTilt": 0
 		},
 		{
 			"id": "gaspra",
@@ -8541,8 +8071,7 @@
 			"discoveredBy": "Grigori Neujmin",
 			"discoveryDate": "30/07/1916",
 			"alternativeName": "1916 S45 - 1916 Σ45",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/gaspra"
+			"axialTilt": 0
 		},
 		{
 			"id": "albion",
@@ -8574,8 +8103,7 @@
 			"discoveredBy": "David C. Jewitt, Jane X. Luu",
 			"discoveryDate": "30/08/1992",
 			"alternativeName": "1992 QB1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/albion"
+			"axialTilt": 0
 		},
 		{
 			"id": "makemake",
@@ -8584,8 +8112,7 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "S/2015 (136472) 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/mk2"
+					"moon": "S/2015 (136472) 1"
 				}
 			],
 			"semimajorAxis": 6783345606,
@@ -8615,8 +8142,7 @@
 			"discoveredBy": "Michael E. Brown, Chadwick Trujillo, David L. Rabinowitz",
 			"discoveryDate": "31/03/2005",
 			"alternativeName": "2005 FY9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/makemake"
+			"axialTilt": 0
 		},
 		{
 			"id": "halley",
@@ -8648,8 +8174,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/halley"
+			"axialTilt": 0
 		},
 		{
 			"id": "jupiter",
@@ -8658,320 +8183,241 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Io",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/io"
+					"moon": "Io"
 				},
 				{
-					"moon": "Europe",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/europe"
+					"moon": "Europe"
 				},
 				{
-					"moon": "Ganymède",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ganymede"
+					"moon": "Ganymède"
 				},
 				{
-					"moon": "Callisto",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/callisto"
+					"moon": "Callisto"
 				},
 				{
-					"moon": "Amalthée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/amalthee"
+					"moon": "Amalthée"
 				},
 				{
-					"moon": "Himalia",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/himalia"
+					"moon": "Himalia"
 				},
 				{
-					"moon": "Élara",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/elara"
+					"moon": "Élara"
 				},
 				{
-					"moon": "Pasiphaé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pasiphae"
+					"moon": "Pasiphaé"
 				},
 				{
-					"moon": "Sinopé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/sinope"
+					"moon": "Sinopé"
 				},
 				{
-					"moon": "Lysithéa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/lysithea"
+					"moon": "Lysithéa"
 				},
 				{
-					"moon": "Carmé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/carme"
+					"moon": "Carmé"
 				},
 				{
-					"moon": "Ananké",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ananke"
+					"moon": "Ananké"
 				},
 				{
-					"moon": "Léda",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/leda"
+					"moon": "Léda"
 				},
 				{
-					"moon": "Thébé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/thebe"
+					"moon": "Thébé"
 				},
 				{
-					"moon": "Adrastée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/adrastee"
+					"moon": "Adrastée"
 				},
 				{
-					"moon": "Métis",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/metis"
+					"moon": "Métis"
 				},
 				{
-					"moon": "Callirrhoé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/callirrhoe"
+					"moon": "Callirrhoé"
 				},
 				{
-					"moon": "Thémisto",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/themisto"
+					"moon": "Thémisto"
 				},
 				{
-					"moon": "Mégaclité",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/megaclite"
+					"moon": "Mégaclité"
 				},
 				{
-					"moon": "Taygété",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/taygete"
+					"moon": "Taygété"
 				},
 				{
-					"moon": "Chaldéné",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/chaldene"
+					"moon": "Chaldéné"
 				},
 				{
-					"moon": "Harpalyké",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/harpalyke"
+					"moon": "Harpalyké"
 				},
 				{
-					"moon": "Kalyké",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/kalyke"
+					"moon": "Kalyké"
 				},
 				{
-					"moon": "Iocasté",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/iocaste"
+					"moon": "Iocasté"
 				},
 				{
-					"moon": "Erinomé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/erinome"
+					"moon": "Erinomé"
 				},
 				{
-					"moon": "Isonoé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/isonoe"
+					"moon": "Isonoé"
 				},
 				{
-					"moon": "Praxidyké",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/praxidike"
+					"moon": "Praxidyké"
 				},
 				{
-					"moon": "Autonoé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/autonoe"
+					"moon": "Autonoé"
 				},
 				{
-					"moon": "Thyoné",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/thyone"
+					"moon": "Thyoné"
 				},
 				{
-					"moon": "Hermippé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hermippe"
+					"moon": "Hermippé"
 				},
 				{
-					"moon": "Aitné",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/aitne"
+					"moon": "Aitné"
 				},
 				{
-					"moon": "Eurydomé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/eurydome"
+					"moon": "Eurydomé"
 				},
 				{
-					"moon": "Euanthé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/euanthe"
+					"moon": "Euanthé"
 				},
 				{
-					"moon": "Euporie",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/euporie"
+					"moon": "Euporie"
 				},
 				{
-					"moon": "Orthosie",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/orthosie"
+					"moon": "Orthosie"
 				},
 				{
-					"moon": "Spondé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/sponde"
+					"moon": "Spondé"
 				},
 				{
-					"moon": "Calé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/cale"
+					"moon": "Calé"
 				},
 				{
-					"moon": "Pasithée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pasithee"
+					"moon": "Pasithée"
 				},
 				{
-					"moon": "Hégémone",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hegemone"
+					"moon": "Hégémone"
 				},
 				{
-					"moon": "Mnémé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/mneme"
+					"moon": "Mnémé"
 				},
 				{
-					"moon": "Aoedé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/aoede"
+					"moon": "Aoedé"
 				},
 				{
-					"moon": "Thelxinoé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/thelxinoe"
+					"moon": "Thelxinoé"
 				},
 				{
-					"moon": "Arché",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/arche"
+					"moon": "Arché"
 				},
 				{
-					"moon": "Callichore",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/callichore"
+					"moon": "Callichore"
 				},
 				{
-					"moon": "Hélicé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/helice"
+					"moon": "Hélicé"
 				},
 				{
-					"moon": "Carpo",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/carpo"
+					"moon": "Carpo"
 				},
 				{
-					"moon": "Eukéladé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/eukelade"
+					"moon": "Eukéladé"
 				},
 				{
-					"moon": "Cyllène",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/cyllene"
+					"moon": "Cyllène"
 				},
 				{
-					"moon": "Coré",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/core"
+					"moon": "Coré"
 				},
 				{
-					"moon": "Hersé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/herse"
+					"moon": "Hersé"
 				},
 				{
-					"moon": "S/2003 J 2",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j2"
+					"moon": "S/2003 J 2"
 				},
 				{
-					"moon": "Euphémé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/eupheme"
+					"moon": "Euphémé"
 				},
 				{
-					"moon": "S/2003 J 4",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j4"
+					"moon": "S/2003 J 4"
 				},
 				{
-					"moon": "Eiréné",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/eirene"
+					"moon": "Eiréné"
 				},
 				{
-					"moon": "S/2003 J 9",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j9"
+					"moon": "S/2003 J 9"
 				},
 				{
-					"moon": "S/2003 J 10",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j10"
+					"moon": "S/2003 J 10"
 				},
 				{
-					"moon": "S/2003 J 12",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j12"
+					"moon": "S/2003 J 12"
 				},
 				{
-					"moon": "Philophrosyne",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/philophrosyne"
+					"moon": "Philophrosyne"
 				},
 				{
-					"moon": "S/2003 J 16",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j16"
+					"moon": "S/2003 J 16"
 				},
 				{
-					"moon": "S/2003 J 18",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j18"
+					"moon": "S/2003 J 18"
 				},
 				{
-					"moon": "S/2003 J 19",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j19"
+					"moon": "S/2003 J 19"
 				},
 				{
-					"moon": "S/2003 J 23",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j23"
+					"moon": "S/2003 J 23"
 				},
 				{
-					"moon": "Dia",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/dia"
+					"moon": "Dia"
 				},
 				{
-					"moon": "S/2010 J 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j1"
+					"moon": "S/2010 J 1"
 				},
 				{
-					"moon": "S/2010 J 2",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j2"
+					"moon": "S/2010 J 2"
 				},
 				{
-					"moon": "S/2011 J 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j1"
+					"moon": "S/2011 J 1"
 				},
 				{
-					"moon": "S/2011 J 2",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j2"
+					"moon": "S/2011 J 2"
 				},
 				{
-					"moon": "S/2017 J 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j1"
+					"moon": "S/2017 J 1"
 				},
 				{
-					"moon": "S/2016 J 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2016j1"
+					"moon": "S/2016 J 1"
 				},
 				{
-					"moon": "Valétudo",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/valetudo"
+					"moon": "Valétudo"
 				},
 				{
-					"moon": "S/2017 J 2",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j2"
+					"moon": "S/2017 J 2"
 				},
 				{
-					"moon": "S/2017 J 3",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j3"
+					"moon": "S/2017 J 3"
 				},
 				{
-					"moon": "Pandia",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pandia"
+					"moon": "Pandia"
 				},
 				{
-					"moon": "S/2017 J 5",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j5"
+					"moon": "S/2017 J 5"
 				},
 				{
-					"moon": "S/2017 J 6",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j6"
+					"moon": "S/2017 J 6"
 				},
 				{
-					"moon": "S/2017 J 7",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j7"
+					"moon": "S/2017 J 7"
 				},
 				{
-					"moon": "S/2017 J 8",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j8"
+					"moon": "S/2017 J 8"
 				},
 				{
-					"moon": "S/2017 J 9",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j9"
+					"moon": "S/2017 J 9"
 				},
 				{
-					"moon": "Ersa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ersa"
+					"moon": "Ersa"
 				}
 			],
 			"semimajorAxis": 778340821,
@@ -9001,8 +8447,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 3.12,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+			"axialTilt": 3.12
 		},
 		{
 			"id": "mars",
@@ -9011,12 +8456,10 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Phobos",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/phobos"
+					"moon": "Phobos"
 				},
 				{
-					"moon": "Deïmos",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/deimos"
+					"moon": "Deïmos"
 				}
 			],
 			"semimajorAxis": 227943824,
@@ -9046,8 +8489,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 25.19,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mars"
+			"axialTilt": 25.19
 		},
 		{
 			"id": "mercure",
@@ -9082,8 +8524,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 0.0352,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mercure"
+			"axialTilt": 0.0352
 		},
 		{
 			"id": "saturne",
@@ -9092,332 +8533,250 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "Mimas",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/mimas"
+					"moon": "Mimas"
 				},
 				{
-					"moon": "Encelade",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/encelade"
+					"moon": "Encelade"
 				},
 				{
-					"moon": "Téthys",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/tethys"
+					"moon": "Téthys"
 				},
 				{
-					"moon": "Dioné",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/dione"
+					"moon": "Dioné"
 				},
 				{
-					"moon": "Rhéa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/rhea"
+					"moon": "Rhéa"
 				},
 				{
-					"moon": "Titan",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/titan"
+					"moon": "Titan"
 				},
 				{
-					"moon": "Hypérion",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hyperion"
+					"moon": "Hypérion"
 				},
 				{
-					"moon": "Japet",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/japet"
+					"moon": "Japet"
 				},
 				{
-					"moon": "Phoebé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/phoebe"
+					"moon": "Phoebé"
 				},
 				{
-					"moon": "Janus",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/janus"
+					"moon": "Janus"
 				},
 				{
-					"moon": "Epiméthée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/epimethee"
+					"moon": "Epiméthée"
 				},
 				{
-					"moon": "Hélène",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/helene"
+					"moon": "Hélène"
 				},
 				{
-					"moon": "Télesto",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/telesto"
+					"moon": "Télesto"
 				},
 				{
-					"moon": "Calypso",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/calypso"
+					"moon": "Calypso"
 				},
 				{
-					"moon": "Atlas",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/atlas"
+					"moon": "Atlas"
 				},
 				{
-					"moon": "Prométhée",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/promethee"
+					"moon": "Prométhée"
 				},
 				{
-					"moon": "Pandore",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pandore"
+					"moon": "Pandore"
 				},
 				{
-					"moon": "Pan",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pan"
+					"moon": "Pan"
 				},
 				{
-					"moon": "Ymir",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ymir"
+					"moon": "Ymir"
 				},
 				{
-					"moon": "Paaliaq",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/paaliaq"
+					"moon": "Paaliaq"
 				},
 				{
-					"moon": "Tarvos",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/tarvos"
+					"moon": "Tarvos"
 				},
 				{
-					"moon": "Ijiraq",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/ijiraq"
+					"moon": "Ijiraq"
 				},
 				{
-					"moon": "Suttungr",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/suttungr"
+					"moon": "Suttungr"
 				},
 				{
-					"moon": "Kiviuq",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/kiviuq"
+					"moon": "Kiviuq"
 				},
 				{
-					"moon": "Mundilfari",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/mundilfari"
+					"moon": "Mundilfari"
 				},
 				{
-					"moon": "Albiorix",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/albiorix"
+					"moon": "Albiorix"
 				},
 				{
-					"moon": "Skathi",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/skathi"
+					"moon": "Skathi"
 				},
 				{
-					"moon": "Erriapo",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/erriapo"
+					"moon": "Erriapo"
 				},
 				{
-					"moon": "Siarnaq",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/siarnaq"
+					"moon": "Siarnaq"
 				},
 				{
-					"moon": "Thrymr",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/thrymr"
+					"moon": "Thrymr"
 				},
 				{
-					"moon": "Narvi",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/narvi"
+					"moon": "Narvi"
 				},
 				{
-					"moon": "Méthone",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/methone"
+					"moon": "Méthone"
 				},
 				{
-					"moon": "Pallène",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pallene"
+					"moon": "Pallène"
 				},
 				{
-					"moon": "Pollux",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/pollux"
+					"moon": "Pollux"
 				},
 				{
-					"moon": "Daphnis",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/daphnis"
+					"moon": "Daphnis"
 				},
 				{
-					"moon": "Aegir",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/aegir"
+					"moon": "Aegir"
 				},
 				{
-					"moon": "Bebhionn",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/bebhionn"
+					"moon": "Bebhionn"
 				},
 				{
-					"moon": "Bergelmir",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/bergelmir"
+					"moon": "Bergelmir"
 				},
 				{
-					"moon": "Bestla",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/bestla"
+					"moon": "Bestla"
 				},
 				{
-					"moon": "Farbauti",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/farbauti"
+					"moon": "Farbauti"
 				},
 				{
-					"moon": "Fenrir",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/fenrir"
+					"moon": "Fenrir"
 				},
 				{
-					"moon": "Fornjot",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/fornjot"
+					"moon": "Fornjot"
 				},
 				{
-					"moon": "Hati",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hati"
+					"moon": "Hati"
 				},
 				{
-					"moon": "Hyrrokkin",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/hyrrokkin"
+					"moon": "Hyrrokkin"
 				},
 				{
-					"moon": "Kari",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/kari"
+					"moon": "Kari"
 				},
 				{
-					"moon": "Loge",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/loge"
+					"moon": "Loge"
 				},
 				{
-					"moon": "Skoll",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/skoll"
+					"moon": "Skoll"
 				},
 				{
-					"moon": "Surtur",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/surtur"
+					"moon": "Surtur"
 				},
 				{
-					"moon": "Anthé",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/anthe"
+					"moon": "Anthé"
 				},
 				{
-					"moon": "Jarnsaxa",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/jarnsaxa"
+					"moon": "Jarnsaxa"
 				},
 				{
-					"moon": "Greip",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/greip"
+					"moon": "Greip"
 				},
 				{
-					"moon": "Tarqeq",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/tarqeq"
+					"moon": "Tarqeq"
 				},
 				{
-					"moon": "Égéon",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/egeon"
+					"moon": "Égéon"
 				},
 				{
-					"moon": "S/2004 S 7",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s7"
+					"moon": "S/2004 S 7"
 				},
 				{
-					"moon": "S/2004 S 12",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s12"
+					"moon": "S/2004 S 12"
 				},
 				{
-					"moon": "S/2004 S 13",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s13"
+					"moon": "S/2004 S 13"
 				},
 				{
-					"moon": "S/2004 S 17",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s17"
+					"moon": "S/2004 S 17"
 				},
 				{
-					"moon": "S/2006 S 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s1"
+					"moon": "S/2006 S 1"
 				},
 				{
-					"moon": "S/2006 S 3",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s3"
+					"moon": "S/2006 S 3"
 				},
 				{
-					"moon": "S/2007 S 2",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s2"
+					"moon": "S/2007 S 2"
 				},
 				{
-					"moon": "S/2007 S 3",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s3"
+					"moon": "S/2007 S 3"
 				},
 				{
-					"moon": "S/2009 S 1",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2009s1"
+					"moon": "S/2009 S 1"
 				},
 				{
-					"moon": "S/2004 S 22",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s22"
+					"moon": "S/2004 S 22"
 				},
 				{
-					"moon": "S/2004 S 21",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s21"
+					"moon": "S/2004 S 21"
 				},
 				{
-					"moon": "S/2004 S 20",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s20"
+					"moon": "S/2004 S 20"
 				},
 				{
-					"moon": "S/2004 S 23",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s23"
+					"moon": "S/2004 S 23"
 				},
 				{
-					"moon": "S/2004 S 24",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s24"
+					"moon": "S/2004 S 24"
 				},
 				{
-					"moon": "S/2004 S 25",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s25"
+					"moon": "S/2004 S 25"
 				},
 				{
-					"moon": "S/2004 S 26",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s26"
+					"moon": "S/2004 S 26"
 				},
 				{
-					"moon": "S/2004 S 27",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s27"
+					"moon": "S/2004 S 27"
 				},
 				{
-					"moon": "S/2004 S 28",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s28"
+					"moon": "S/2004 S 28"
 				},
 				{
-					"moon": "S/2004 S 29",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s29"
+					"moon": "S/2004 S 29"
 				},
 				{
-					"moon": "S/2004 S 30",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s30"
+					"moon": "S/2004 S 30"
 				},
 				{
-					"moon": "S/2004 S 31",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s31"
+					"moon": "S/2004 S 31"
 				},
 				{
-					"moon": "S/2004 S 32",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s32"
+					"moon": "S/2004 S 32"
 				},
 				{
-					"moon": "S/2004 S 33",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s33"
+					"moon": "S/2004 S 33"
 				},
 				{
-					"moon": "S/2004 S 34",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s34"
+					"moon": "S/2004 S 34"
 				},
 				{
-					"moon": "S/2004 S 35",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s35"
+					"moon": "S/2004 S 35"
 				},
 				{
-					"moon": "S/2004 S 36",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s36"
+					"moon": "S/2004 S 36"
 				},
 				{
-					"moon": "S/2004 S 37",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s37"
+					"moon": "S/2004 S 37"
 				},
 				{
-					"moon": "S/2004 S 38",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s38"
+					"moon": "S/2004 S 38"
 				},
 				{
-					"moon": "S/2004 S 39",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s39"
+					"moon": "S/2004 S 39"
 				}
 			],
 			"semimajorAxis": 1426666422,
@@ -9447,8 +8806,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 26.73,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+			"axialTilt": 26.73
 		},
 		{
 			"id": "soleil",
@@ -9480,8 +8838,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 7.25,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/soleil"
+			"axialTilt": 7.25
 		},
 		{
 			"id": "terre",
@@ -9490,8 +8847,7 @@
 			"isPlanet": true,
 			"moons": [
 				{
-					"moon": "La Lune",
-					"rel": "https://api.le-systeme-solaire.net/rest/bodies/lune"
+					"moon": "La Lune"
 				}
 			],
 			"semimajorAxis": 149598262,
@@ -9521,8 +8877,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 23.4393,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/terre"
+			"axialTilt": 23.4393
 		},
 		{
 			"id": "venus",
@@ -9557,8 +8912,7 @@
 			"discoveredBy": "",
 			"discoveryDate": "",
 			"alternativeName": "",
-			"axialTilt": 177.36,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/venus"
+			"axialTilt": 177.36
 		},
 		{
 			"id": "kerberos",
@@ -9587,14 +8941,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "pluton",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+				"planet": "pluton"
 			},
 			"discoveredBy": "T&eacute;lescope spatial Hubble - Pluto Companion Search Team",
 			"discoveryDate": "20/07/2011",
 			"alternativeName": "S/2011 (134340) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/kerberos"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2011j1",
@@ -9623,14 +8975,12 @@
 			"sideralOrbit": 580.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard",
 			"discoveryDate": "29/01/2012",
 			"alternativeName": "S/2011 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j1"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2011j2",
@@ -9659,14 +9009,12 @@
 			"sideralOrbit": 726.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott S. Sheppard",
 			"discoveryDate": "29/01/2012",
 			"alternativeName": "S/2011 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j2"
+			"axialTilt": 0
 		},
 		{
 			"id": "styx",
@@ -9695,14 +9043,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "pluton",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/pluton"
+				"planet": "pluton"
 			},
 			"discoveredBy": "T&eacute;lescope spatial Hubble - Pluto Companion Search Team - Mark Showalter",
 			"discoveryDate": "11/07/2012",
 			"alternativeName": "S/2012 (134340) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/styx"
+			"axialTilt": 0
 		},
 		{
 			"id": "hippocampe",
@@ -9731,14 +9077,12 @@
 			"sideralOrbit": 0.95,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "neptune",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune"
+				"planet": "neptune"
 			},
 			"discoveredBy": "Mark Showalter",
 			"discoveryDate": "01/07/2013",
 			"alternativeName": "S/2004 N 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/hippocampe"
+			"axialTilt": 0
 		},
 		{
 			"id": "mk2",
@@ -9767,14 +9111,12 @@
 			"sideralOrbit": 2.74,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "makemake",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/makemake"
+				"planet": "makemake"
 			},
 			"discoveredBy": "Alex H. Parker, Marc W. Buie, M. Grundy, Keith S. Noll",
 			"discoveryDate": "26/04/2016",
 			"alternativeName": "S/2015 (136472) 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/mk2"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j1",
@@ -9803,14 +9145,12 @@
 			"sideralOrbit": 734.2,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "06/06/2017",
 			"alternativeName": "S/2017 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j1"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2016j1",
@@ -9839,14 +9179,12 @@
 			"sideralOrbit": 602.7,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "06/06/2017",
 			"alternativeName": "S/2016 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2016j1"
+			"axialTilt": 0
 		},
 		{
 			"id": "valetudo",
@@ -9875,14 +9213,12 @@
 			"sideralOrbit": 533,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2016 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/valetudo"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j2",
@@ -9911,14 +9247,12 @@
 			"sideralOrbit": 723,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 2",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j2"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j3",
@@ -9947,14 +9281,12 @@
 			"sideralOrbit": 606,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j3"
+			"axialTilt": 0
 		},
 		{
 			"id": "pandia",
@@ -9983,14 +9315,12 @@
 			"sideralOrbit": 252,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 4",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/pandia"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j5",
@@ -10019,14 +9349,12 @@
 			"sideralOrbit": 719,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 5",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j5"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j6",
@@ -10055,14 +9383,12 @@
 			"sideralOrbit": 683,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 6",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j6"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j7",
@@ -10091,14 +9417,12 @@
 			"sideralOrbit": 603,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 7",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j7"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j8",
@@ -10127,14 +9451,12 @@
 			"sideralOrbit": 720,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 8",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j8"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2017j9",
@@ -10163,14 +9485,12 @@
 			"sideralOrbit": 639,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2017 J 9",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j9"
+			"axialTilt": 0
 		},
 		{
 			"id": "ersa",
@@ -10199,14 +9519,12 @@
 			"sideralOrbit": 252,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "jupiter",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter"
+				"planet": "jupiter"
 			},
 			"discoveredBy": "Scott Sheppard",
 			"discoveryDate": "17/07/2018",
 			"alternativeName": "S/2018 J 1",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/ersa"
+			"axialTilt": 0
 		},
 		{
 			"id": "arrokoth",
@@ -10238,8 +9556,7 @@
 			"discoveredBy": "Télescope spatial Hubble",
 			"discoveryDate": "26/06/2014",
 			"alternativeName": "2014 MU 69",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/arrokoth"
+			"axialTilt": 0
 		},
 		{
 			"id": "benou",
@@ -10271,8 +9588,7 @@
 			"discoveredBy": "LINEAR",
 			"discoveryDate": "11/09/1999",
 			"alternativeName": "1999 RQ36",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/benou"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s22",
@@ -10298,14 +9614,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 22",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s22"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s21",
@@ -10331,14 +9645,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 21",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s21"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s20",
@@ -10364,14 +9676,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 20",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s20"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s23",
@@ -10397,14 +9707,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 23",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s23"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s24",
@@ -10430,14 +9738,12 @@
 			"sideralOrbit": 1317.6,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 24",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s24"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s25",
@@ -10463,14 +9769,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 25",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s25"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s26",
@@ -10496,14 +9800,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 26",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s26"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s27",
@@ -10529,14 +9831,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 27",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s27"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s28",
@@ -10562,14 +9862,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 28",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s28"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s29",
@@ -10595,14 +9893,12 @@
 			"sideralOrbit": 858.77,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 29",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s29"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s30",
@@ -10628,14 +9924,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 30",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s30"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s31",
@@ -10661,14 +9955,12 @@
 			"sideralOrbit": 853.8,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 31",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s31"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s32",
@@ -10694,14 +9986,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 32",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s32"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s33",
@@ -10727,14 +10017,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 33",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s33"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s34",
@@ -10760,14 +10048,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 34",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s34"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s35",
@@ -10793,14 +10079,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 35",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s35"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s36",
@@ -10826,14 +10110,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 36",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s36"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s37",
@@ -10859,14 +10141,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 37",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s37"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s38",
@@ -10892,14 +10172,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 38",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s38"
+			"axialTilt": 0
 		},
 		{
 			"id": "s2004s39",
@@ -10925,14 +10203,12 @@
 			"sideralOrbit": 0,
 			"sideralRotation": 0,
 			"aroundPlanet": {
-				"planet": "saturne",
-				"rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne"
+				"planet": "saturne"
 			},
 			"discoveredBy": "S. Sheppard, D. Jewitt, J. Kleyna",
 			"discoveryDate": "2004",
 			"alternativeName": "S/2004 S 39",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s39"
+			"axialTilt": 0
 		},
 		{
 			"id": "c2020f3-neowise",
@@ -10961,8 +10237,7 @@
 			"discoveredBy": "Wide-Field Infrared Survey Explorer",
 			"discoveryDate": "27/03/2020",
 			"alternativeName": "C/2020 F3",
-			"axialTilt": 0,
-			"rel": "https://api.le-systeme-solaire.net/rest/bodies/c2020f3-neowise"
+			"axialTilt": 0
 		}
 	]
 }
