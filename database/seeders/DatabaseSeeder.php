@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             PeopleSeeder::class,
             PlanetSeeder::class,
             SpecieSeeder::class,
+            StarshipSeeder::class,
         ]);
     }
 }
