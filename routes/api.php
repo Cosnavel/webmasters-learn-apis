@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Resources\Film as FilmResource;
+use App\Http\Resources\People as PeopleResource;
 use App\Models\Film;
+use App\Models\People;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,10 +22,20 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/films', function () {
-    return FilmResource::collection(Film::all());
-});
+Route::domain('swapi.api.test')->group(function () {
+    Route::get('/films', function () {
+        return FilmResource::collection(Film::all());
+    });
 
-Route::get('/films/{id}', function ($film) {
-    return new FilmResource(Film::find($film));
+    Route::get('/films/{id}', function ($film) {
+        return new FilmResource(Film::find($film));
+    });
+
+    Route::get('/people', function () {
+        return PeopleResource::collection(People::all());
+    });
+
+    Route::get('/people/{id}', function ($people) {
+        return new PeopleResource(People::find($people));
+    });
 });
