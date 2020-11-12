@@ -2,8 +2,10 @@
 
 use App\Http\Resources\Film as FilmResource;
 use App\Http\Resources\People as PeopleResource;
+use App\Http\Resources\Planet as PlanetResource;
 use App\Models\Film;
 use App\Models\People;
+use App\Models\Planet;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -37,5 +39,12 @@ Route::domain('swapi.api.test')->group(function () {
 
     Route::get('/people/{id}', function ($people) {
         return new PeopleResource(People::find($people));
+    });
+    Route::get('/planets', function () {
+        return PlanetResource::collection(Planet::all());
+    });
+
+    Route::get('/planets/{id}', function ($planet) {
+        return new PlanetResource(Planet::find($planet));
     });
 });
