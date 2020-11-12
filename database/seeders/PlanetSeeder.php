@@ -15,7 +15,7 @@ class PlanetSeeder extends Seeder
      */
     public function run()
     {
-        $json = Storage::disk('seed')->get('swapi/planet.json');
+        $json = Storage::disk('seed')->get('swapi/planets.json');
 
         $data = json_decode($json);
 
