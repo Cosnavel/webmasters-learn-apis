@@ -25,5 +25,5 @@ Route::get('/films', function () {
 });
 
 Route::get('/films/{id}', function ($film) {
-    return FilmResource::collection(Film::find($film));
+    return new FilmResource(Film::find($film));
 });
