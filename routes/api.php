@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Resources\Film as FilmResource;
+use App\Models\Film;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +18,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('/films', function () {
+    return FilmResource::collection(Film::all());
+});
+
+Route::get('/films/{id}', function ($film) {
+    return FilmResource::collection(Film::find($film));
 });
