@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             FilmSeeder::class,
             PeopleSeeder::class,
             PlanetSeeder::class,
+            SpecieSeeder::class,
         ]);
     }
 }
