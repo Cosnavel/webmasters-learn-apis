@@ -15,6 +15,7 @@ class CreateFilmsTable extends Migration
     {
         Schema::create('films', function (Blueprint $table) {
             $table->id();
+            $table->json('fields');
             $table->timestamps();
         });
     }
