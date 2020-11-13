@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             SpecieSeeder::class,
             StarshipSeeder::class,
             TransportSeeder::class,
+            VehicleSeeder::class,
         ]);
     }
 }
