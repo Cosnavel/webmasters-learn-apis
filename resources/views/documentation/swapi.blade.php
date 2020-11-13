@@ -21,7 +21,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Star Wars API stellen!
 
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen. Im Beispiel unten versuchen wir, den ersten Planeten, Tatooine, zu bekommen:
 
-```bash
+```
 http swapi.api.webmasters.de/planeten/1/
 ```
 
