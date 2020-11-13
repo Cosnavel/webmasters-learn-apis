@@ -14,7 +14,6 @@ class JsonResponse
      * @param  \Closure  $next
      * @return mixed
      */
-
     public function handle($request, Closure $next)
     {
         $request->headers->set('Accept', 'application/json');
