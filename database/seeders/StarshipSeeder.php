@@ -20,10 +20,10 @@ class StarshipSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new Starship();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $starship = new Starship();
+            $starship->id = $item->id;
+            $starship->fields = json_encode($item->fields);
+            $starship->save();
         }
     }
 }

@@ -20,10 +20,10 @@ class VehicleSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new Vehicle();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $vehicle = new Vehicle();
+            $vehicle->id = $item->id;
+            $vehicle->fields = json_encode($item->fields);
+            $vehicle->save();
         }
     }
 }

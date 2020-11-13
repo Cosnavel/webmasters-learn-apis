@@ -20,10 +20,10 @@ class SpecieSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new Specie();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $specie = new Specie();
+            $specie->id = $item->id;
+            $specie->fields = json_encode($item->fields);
+            $specie->save();
         }
     }
 }

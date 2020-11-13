@@ -20,10 +20,10 @@ class PeopleSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new People();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $people = new People();
+            $people->id = $item->id;
+            $people->fields = json_encode($item->fields);
+            $people->save();
         }
     }
 }

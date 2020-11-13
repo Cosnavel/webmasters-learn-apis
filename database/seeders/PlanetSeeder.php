@@ -20,10 +20,10 @@ class PlanetSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new Planet();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $planet = new Planet();
+            $planet->id = $item->id;
+            $planet->fields = json_encode($item->fields);
+            $planet->save();
         }
     }
 }

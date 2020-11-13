@@ -20,10 +20,10 @@ class TransportSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $item) {
-            $link = new Transport();
-            $link->id = $item->id;
-            $link->fields = json_encode($item->fields);
-            $link->save();
+            $transport = new Transport();
+            $transport->id = $item->id;
+            $transport->fields = json_encode($item->fields);
+            $transport->save();
         }
     }
 }
