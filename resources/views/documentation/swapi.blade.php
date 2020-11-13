@@ -22,7 +22,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Star Wars API stellen!
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen. Im Beispiel unten versuchen wir, den ersten Planeten, Tatooine, zu bekommen:
 
 ```
-http swapi.api.webmasters.de/planeten/1/
+http swapi.api.webmasters.de/planets/1/
 ```
 
 Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es die Antworten gut anzeigt und uns eine ganze Reihe weiterer nützlicher Informationen liefert. Wenn Sie [httpie] nicht herunterladen wollen, benutzen Sie stattdessen einfach den Befehl *curl*.
@@ -30,19 +30,24 @@ Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es di
 Hier ist die Antwort, die wir erhalten:
 
 ```
-    HTTP/1.0 200 OK
-    Content-Type: application/json
-    {
-        "climate": "Arid",
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+    "fields": {
+        "climate": "arid",
+        "created": "2014-12-09T13:50:49.641Z",
         "diameter": "10465",
+        "edited": "2014-12-20T20:58:18.411Z",
         "gravity": "1 standard",
         "name": "Tatooine",
         "orbital_period": "304",
         "population": "200000",
         "rotation_period": "23",
         "surface_water": "1",
-        "terrain": "Dessert",
-    }
+        "terrain": "desert"
+    },
+    "id": 1
+}
 ```
 
 Wenn Ihre Antwort etwas anders aussieht, geraten Sie nicht in Panik. Das liegt wahrscheinlich daran, dass seit der Erstellung dieser Dokumentation mehr Daten zur Swapi hinzugefügt wurden.
@@ -54,7 +59,7 @@ Die **Basis-URL** ist die Root-URL für die gesamte API. Wenn Sie jemals eine An
 
 Die Basis-URL für Swapi lautet:
 
-    https://swapi.api.webmasters.de/
+`https://swapi.api.webmasters.de/`
 
 In der folgenden Dokumentation wird davon ausgegangen, dass Sie die Basis-URL den Endpunkten voranstellen, um Anfragen zu stellen.
 
