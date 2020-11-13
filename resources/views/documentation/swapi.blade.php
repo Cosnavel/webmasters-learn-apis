@@ -1,9 +1,17 @@
-#Swapi Dokumentation
-- - -
+@extends('layouts.markdown')
+
+@section('content')
+
+
+@markdown
+
+# Swapi Dokumentation
+
 <a name="intro"></a>
 ### Einführung
 
 Willkommen zur Swapi, der Star Wars API! Diese Dokumentation soll Ihnen helfen, sich mit den verfügbaren Ressourcen vertraut zu machen und wie Sie diese mit HTTP-Anfragen verwenden können. Lesen Sie sich den Abschnitt *Erste Schritte* durch, bevor Sie eintauchen. Die meisten Ihrer Probleme sollten allein durch das Durchlesen gelöst werden.
+
 
 <a name="start"></a>
 ### Erste Schritte
@@ -13,7 +21,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Star Wars API stellen!
 
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen. Im Beispiel unten versuchen wir, den ersten Planeten, Tatooine, zu bekommen:
 
-```
+```bash
 http swapi.api.webmasters.de/planeten/1/
 ```
 
@@ -625,3 +633,6 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 **Search Fields:**
 
 - ```name```
+@endmarkdown
+
+@endsection
