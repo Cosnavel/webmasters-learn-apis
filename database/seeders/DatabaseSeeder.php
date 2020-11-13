@@ -13,13 +13,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
         $this->call([
             FilmSeeder::class,
             PeopleSeeder::class,
             PlanetSeeder::class,
             SpecieSeeder::class,
             StarshipSeeder::class,
+            TransportSeeder::class,
         ]);
     }
 }

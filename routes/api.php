@@ -5,11 +5,13 @@ use App\Http\Resources\People as PeopleResource;
 use App\Http\Resources\Planet as PlanetResource;
 use App\Http\Resources\Specie as SpecieResource;
 use App\Http\Resources\Starship as StarshipResource;
+use App\Http\Resources\Transport as TransportResource;
 use App\Models\Film;
 use App\Models\People;
 use App\Models\Planet;
 use App\Models\Specie;
 use App\Models\Starship;
+use App\Models\Transport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -66,5 +68,13 @@ Route::domain('swapi.api.test')->group(function () {
 
     Route::get('/starships/{id}', function ($starship) {
         return new StarshipResource(Starship::find($starship));
+    });
+
+    Route::get('/transport', function () {
+        return TransportResource::collection(Transport::all());
+    });
+
+    Route::get('/transport/{id}', function ($transport) {
+        return new TransportResource(Transport::find($transport));
     });
 });
