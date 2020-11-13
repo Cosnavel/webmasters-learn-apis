@@ -1,23 +1,24 @@
 <?php
 
-use App\Http\Resources\Body as BodyResource;
-use App\Http\Resources\Film as FilmResource;
-use App\Http\Resources\People as PeopleResource;
-use App\Http\Resources\Planet as PlanetResource;
-use App\Http\Resources\Specie as SpecieResource;
-use App\Http\Resources\Starship as StarshipResource;
-use App\Http\Resources\Transport as TransportResource;
-use App\Http\Resources\Vehicle as VehicleResource;
 use App\Models\Body;
 use App\Models\Film;
 use App\Models\People;
 use App\Models\Planet;
 use App\Models\Specie;
+use App\Models\Vehicle;
 use App\Models\Starship;
 use App\Models\Transport;
-use App\Models\Vehicle;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Spatie\QueryBuilder\QueryBuilder;
+use App\Http\Resources\Body as BodyResource;
+use App\Http\Resources\Film as FilmResource;
+use App\Http\Resources\People as PeopleResource;
+use App\Http\Resources\Planet as PlanetResource;
+use App\Http\Resources\Specie as SpecieResource;
+use App\Http\Resources\Vehicle as VehicleResource;
+use App\Http\Resources\Starship as StarshipResource;
+use App\Http\Resources\Transport as TransportResource;
 
 /*
 |--------------------------------------------------------------------------
@@ -97,7 +98,10 @@ Route::domain('swapi.api.test')->group(function () {
 
 Route::domain('solar.api.test')->group(function () {
     Route::get('/bodies', function () {
-        return BodyResource::collection(Body::all());
+        $bodies = QueryBuilder::for(Body::class)
+    ->allowedFilters(['englishName'])
+    ->get();
+        return $bodies ? $bodies : BodyResource::collection(Body::all());
     });
 
     Route::get('/bodies/{id}', function ($body) {
