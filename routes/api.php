@@ -38,7 +38,7 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/films/{id}', function ($film) {
-        return new FilmResource(Film::find($film));
+        return new FilmResource(Film::findOrFail($film));
     });
 
     Route::get('/people', function () {
@@ -46,14 +46,14 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/people/{id}', function ($people) {
-        return new PeopleResource(People::find($people));
+        return new PeopleResource(People::findOrFail($people));
     });
     Route::get('/planets', function () {
         return PlanetResource::collection(Planet::all());
     });
 
     Route::get('/planets/{id}', function ($planet) {
-        return new PlanetResource(Planet::find($planet));
+        return new PlanetResource(Planet::findOrFail($planet));
     });
 
     Route::get('/species', function () {
@@ -61,7 +61,7 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/species/{id}', function ($specie) {
-        return new SpecieResource(Specie::find($specie));
+        return new SpecieResource(Specie::findOrFail($specie));
     });
 
     Route::get('/starships', function () {
@@ -69,7 +69,7 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/starships/{id}', function ($starship) {
-        return new StarshipResource(Starship::find($starship));
+        return new StarshipResource(Starship::findOrFail($starship));
     });
 
     Route::get('/transport', function () {
@@ -77,7 +77,7 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/transport/{id}', function ($transport) {
-        return new TransportResource(Transport::find($transport));
+        return new TransportResource(Transport::findOrFail($transport));
     });
 
     Route::get('/vehicles', function () {
@@ -85,6 +85,10 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/vehicles/{id}', function ($vehicle) {
-        return new VehicleResource(Vehicle::find($vehicle));
+        return new VehicleResource(Vehicle::findOrFail($vehicle));
+    });
+
+    Route::fallback(function () {
+        return response()->json(['message' => 'Page Not Found'], 404);
     });
 });
