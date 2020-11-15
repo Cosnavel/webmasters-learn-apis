@@ -37,7 +37,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::domain('swapi.api.test')->group(function () {
     Route::get('/films', function () {
-        return FilmResource::collection(Film::all());
+        $films = QueryBuilder::for(Film::class)
+        ->allowedFilters(['director' ,'producer' ,'title', ])
+        ->get();
+        return $films ? $films : FilmResource::collection(Film::all());
     });
 
     Route::get('/films/{id}', function ($film) {
@@ -45,14 +48,20 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/people', function () {
-        return PeopleResource::collection(People::all());
+        $peoples = QueryBuilder::for(People::class)
+        ->allowedFilters(['name'])
+        ->get();
+        return $peoples ? $peoples : PeopleResource::collection(People::all());
     });
 
     Route::get('/people/{id}', function ($people) {
         return new PeopleResource(People::findOrFail($people));
     });
     Route::get('/planets', function () {
-        return PlanetResource::collection(Planet::all());
+        $planets = QueryBuilder::for(Planet::class)
+        ->allowedFilters(['climate','name','terrain' ])
+        ->get();
+        return $planets ? $planets : PlanetResource::collection(Planet::all());
     });
 
     Route::get('/planets/{id}', function ($planet) {
@@ -60,7 +69,10 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/species', function () {
-        return SpecieResource::collection(Specie::all());
+        $species = QueryBuilder::for(Specie::class)
+        ->allowedFilters(['classification','name','designation','language',])
+        ->get();
+        return $species ? $species : SpecieResource::collection(Specie::all());
     });
 
     Route::get('/species/{id}', function ($specie) {
@@ -68,7 +80,10 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/starships', function () {
-        return StarshipResource::collection(Starship::all());
+        $starships = QueryBuilder::for(Starship::class)
+        ->allowedFilters(['starship_class','MGLT'])
+        ->get();
+        return $starships ? $starships : StarshipResource::collection(Starship::all());
     });
 
     Route::get('/starships/{id}', function ($starship) {
@@ -76,7 +91,10 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/transport', function () {
-        return TransportResource::collection(Transport::all());
+        $transport = QueryBuilder::for(Transport::class)
+        ->allowedFilters(['consumables','name','cargo_capacity','passengers','max_atmosphering_speed','crew','length','cost_in_credits','manufacturer'])
+        ->get();
+        return $transport ? $transport : TransportResource::collection(Transport::all());
     });
 
     Route::get('/transport/{id}', function ($transport) {
@@ -84,7 +102,10 @@ Route::domain('swapi.api.test')->group(function () {
     });
 
     Route::get('/vehicles', function () {
-        return VehicleResource::collection(Vehicle::all());
+        $vehicles = QueryBuilder::for(Vehicle::class)
+        ->allowedFilters(['vehicle_class'])
+        ->get();
+        return $vehicles ? $vehicles : VehicleResource::collection(Vehicle::all());
     });
 
     Route::get('/vehicles/{id}', function ($vehicle) {
@@ -99,7 +120,7 @@ Route::domain('swapi.api.test')->group(function () {
 Route::domain('solar.api.test')->group(function () {
     Route::get('/bodies', function () {
         $bodies = QueryBuilder::for(Body::class)
-    ->allowedFilters(['englishName'])
+    ->allowedFilters(['englishName', 'name'])
     ->get();
         return $bodies ? $bodies : BodyResource::collection(Body::all());
     });

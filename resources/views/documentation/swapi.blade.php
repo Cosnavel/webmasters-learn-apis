@@ -79,7 +79,7 @@ Swapi ist eine **vollständig offene API**. Es ist keine Authentifizierung erfor
 Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
 
 ```
-https://swapi.api.webmasters.de/people/?search=r2
+https://swapi.api.webmasters.de/people?filter[name]=john
 ```
 
  Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
