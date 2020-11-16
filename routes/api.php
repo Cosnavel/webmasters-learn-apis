@@ -42,7 +42,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $films ? $films : FilmResource::collection(Film::all());
-    });
+    })->name('swapi.films');
 
     Route::get('/films/{id}', function ($film) {
         return new FilmResource(Film::findOrFail($film));
@@ -54,7 +54,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $peoples ? $peoples : PeopleResource::collection(People::all());
-    });
+    })->name('swapi.people');
 
     Route::get('/people/{id}', function ($people) {
         return new PeopleResource(People::findOrFail($people));
@@ -65,7 +65,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $planets ? $planets : PlanetResource::collection(Planet::all());
-    });
+    })->name('swapi.planets');
 
     Route::get('/planets/{id}', function ($planet) {
         return new PlanetResource(Planet::findOrFail($planet));
@@ -77,7 +77,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $species ? $species : SpecieResource::collection(Specie::all());
-    });
+    })->name('swapi.species');
 
     Route::get('/species/{id}', function ($specie) {
         return new SpecieResource(Specie::findOrFail($specie));
@@ -89,7 +89,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $starships ? $starships : StarshipResource::collection(Starship::all());
-    });
+    })->name('swapi.starships');
 
     Route::get('/starships/{id}', function ($starship) {
         return new StarshipResource(Starship::findOrFail($starship));
@@ -101,7 +101,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $transport ? $transport : TransportResource::collection(Transport::all());
-    });
+    })->name('swapi.transport');
 
     Route::get('/transport/{id}', function ($transport) {
         return new TransportResource(Transport::findOrFail($transport));
@@ -113,7 +113,7 @@ Route::domain('swapi.api.test')->group(function () {
         ->get();
 
         return $vehicles ? $vehicles : VehicleResource::collection(Vehicle::all());
-    });
+    })->name('swapi.vehicles');
 
     Route::get('/vehicles/{id}', function ($vehicle) {
         return new VehicleResource(Vehicle::findOrFail($vehicle));
