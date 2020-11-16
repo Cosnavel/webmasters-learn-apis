@@ -6,6 +6,7 @@ use App\Http\Resources\People as PeopleResource;
 use App\Http\Resources\Planet as PlanetResource;
 use App\Http\Resources\Specie as SpecieResource;
 use App\Http\Resources\Starship as StarshipResource;
+use App\Http\Resources\Swapi as SwapiResource;
 use App\Http\Resources\Transport as TransportResource;
 use App\Http\Resources\Vehicle as VehicleResource;
 use App\Models\Body;
@@ -36,6 +37,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::domain('swapi.api.test')->group(function () {
+    Route::get('/', function () {
+        return new SwapiResource(null);
+    });
+
     Route::get('/films', function () {
         $films = QueryBuilder::for(Film::class)
         ->allowedFilters(['director', 'producer', 'title'])
