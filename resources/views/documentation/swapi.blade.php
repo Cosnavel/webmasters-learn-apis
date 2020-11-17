@@ -33,20 +33,18 @@ Hier ist die Antwort, die wir erhalten:
 HTTP/1.1 200 OK
 Content-Type: application/json
 {
-    "fields": {
-        "climate": "arid",
-        "created": "2014-12-09T13:50:49.641Z",
-        "diameter": "10465",
-        "edited": "2014-12-20T20:58:18.411Z",
-        "gravity": "1 standard",
-        "name": "Tatooine",
-        "orbital_period": "304",
-        "population": "200000",
-        "rotation_period": "23",
-        "surface_water": "1",
-        "terrain": "desert"
-    },
-    "id": 1
+    "climate": "arid",
+    "created": "2014-12-09T13:50:49.641Z",
+    "diameter": "10465",
+    "edited": "2014-12-20T20:58:18.411Z",
+    "gravity": "1 standard",
+    "id": 1,
+    "name": "Tatooine",
+    "orbital_period": "304",
+    "population": "200000",
+    "rotation_period": "23",
+    "surface_water": "1",
+    "terrain": "desert"
 }
 ```
 
