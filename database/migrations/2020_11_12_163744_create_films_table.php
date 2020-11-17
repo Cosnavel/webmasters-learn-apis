@@ -15,7 +15,19 @@ class CreateFilmsTable extends Migration
     {
         Schema::create('films', function (Blueprint $table) {
             $table->id();
-            $table->json('fields');
+            $table->json('starships');
+            $table->string('edited');
+            $table->json('vehicles');
+            $table->json('planets');
+            $table->string('producer');
+            $table->string('title');
+            $table->string('created');
+            $table->integer('episode_id');
+            $table->string('director');
+            $table->string('release_date');
+            $table->string('opening_crawl');
+            $table->json('characters');
+            $table->json('species');
         });
     }
 
