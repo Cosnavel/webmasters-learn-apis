@@ -22,7 +22,17 @@ class PeopleSeeder extends Seeder
         foreach ($data as $item) {
             $people = new People();
             $people->id = $item->id;
-            $people->fields = json_encode($item->fields);
+            $people->edited = $item->fields->edited;
+            $people->name = $item->fields->name;
+            $people->created = $item->fields->created;
+            $people->gender = $item->fields->gender;
+            $people->skin_color = $item->fields->skin_color;
+            $people->hair_color = $item->fields->hair_color;
+            $people->height = $item->fields->height;
+            $people->eye_color = $item->fields->eye_color;
+            $people->mass = $item->fields->mass;
+            $people->homeworld = $item->fields->homeworld;
+            $people->birth_year = $item->fields->birth_year;
             $people->save();
         }
     }
