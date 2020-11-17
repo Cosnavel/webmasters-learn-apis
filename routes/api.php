@@ -132,7 +132,7 @@ Route::domain('swapi.api.test')->group(function () {
 Route::domain('solar.api.test')->group(function () {
     Route::get('/bodies', function () {
         $bodies = QueryBuilder::for(Body::class)
-    ->allowedFilters(['englishName', 'name'])
+    ->allowedFilters(['alternativeName', 'name', 'discoveredBy'])
     ->get();
 
         return $bodies ? $bodies : BodyResource::collection(Body::all());

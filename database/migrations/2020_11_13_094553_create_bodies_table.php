@@ -16,7 +16,6 @@ class CreateBodiesTable extends Migration
         Schema::create('bodies', function (Blueprint $table) {
             $table->string('id');
             $table->string('name');
-            $table->string('englishName');
             $table->boolean('isPlanet');
             $table->json('moons');
             $table->float('semimajorAxis');

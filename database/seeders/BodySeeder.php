@@ -23,8 +23,7 @@ class BodySeeder extends Seeder
             $body = new Body();
 
             $body->id = $item->id;
-            $body->name = $item->name;
-            $body->englishName = $item->englishName;
+            $body->name = $item->englishName;
             $body->isPlanet = $item->isPlanet;
             $body->moons = json_encode($item->moons);
             $body->semimajorAxis = $item->semimajorAxis;

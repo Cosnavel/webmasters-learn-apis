@@ -1,88 +1,248 @@
-Documentation
-How to use the API?
-All the stars in one request
-A URL returns all the stars in the database with all the data:
+@extends('layouts.markdown')
 
-https://api.le-systeme-solaire.net/rest/bodies/
-Star by star
-A URL returns all the data of a star:
+@section('content')
 
-https://api.le-systeme-solaire.net/rest/bodies/{id}
-API parameters
-# Setting Action
-1 data Used to limit the data returned (separated by a comma).
-Example:data=id,semimajorAxis,isPlanet
-2 exclude Allows you to exclude certain data (separated by a comma).
-Example:exclude=id,isPlanet
-2 order Allows you to sort the result.
-Example: order=semimajorAxis,asc
-NB: Only one sorting parameter allowed.
-3 page Used to paginate the result of a sorted query. You must specify the page number (number> = 1) and the page size
-(size> = 1 and 20 by default).
-Example: page=1,10
-NB: You cannot use “page” without the “order” parameter.
-4 rowData Used to transform objects into a record.
-Example: rowData=true
-NB: This action can be done in JavaScript on the client side!
-NB: The default is false.
-5 filter [] Allows you to filter the result. Each filter is made up of data, an operator and a value (separated by a
-comma).
-Example: filter[]=id,eq,mars
-The accepted operators are:
-cs (like)
-sw (start with)
-ew (end with)
-eq (equal)
-lt (less than)
-the (less or equal than)
-ge (greater or equal than)
-gt (greater than)
-bt (between)
-All inverse operators exist: ncs - nsw - new - neq - nlt - nle - nge - ngt - nbt.
-NB: If a filter is invalid it will be ignored.
-6 satisfy Allows you to force whether all filters apply (default choice) or just some.
-Example: satisfy=any
-NB: the only possible value is any
-Available data
-# Last name Type Content
-1 id string Identifier of the star in the API.
-2 name string Name of the star (in French).
-3 englishName string English name of the star.
-4 isPlanet boolean Is it a planet?
-5 moons
-[{moon, rel}, ...] array
-[{string, string}, ...] Table with all the satellites.
-moon: satellite name, rel: API address for the satellite.
-6 semimajorAxis integrate The semi-major axis in kilometers.
-7 perihelion integrate The perihelion in kilometers.
-8 apheion integrate Aphelion in kilometers.
-9 eccentricity decimal Orbital eccentricity.
-10 inclination decimal The orbital tilt in degrees.
-11 mass
-{massValue, massExponent} object
-{number, integer} The mass of the object in 10 n kg.
-massValue: mass of the star, massExponent: exponent 10 of the mass.
-12 vol
-{volValue, volExponent} object
-{number, integer} The volume of the object in 10 n kg.
-volValue: volume of the star, volExponent: exponent 10 of the volume.
-13 density decimal The toothness of the star in g.cm 3 .
-14 gravity decimal The surface gravity in ms -2 .
-15 escape decimal The escape speed in ms -1 .
-16 meanRadius integrate The average radius in kilometers.
-17 equaRadius integrate The equatorial radius in kilometers.
-18 polarRadius integrate The polar radius in kilometers.
-19 escape flattening Flattening.
-20 dimension string Dimension of the star in kilometers on 3 axes X, Y and Z for non-spherical stars.
-21 sideralOrbit decimal The period of the star's revolution around another star (the Sun or a planet) in terrestrial
-days.
-22 sideralRotation decimal The period of rotation of the star, the time necessary for the star to complete a turn on
-itself, in hours.
-23 aroundPlanet
-{planet, rel} object
-{string, string} For a satellite, the planet around which the star orbits.
-planet: name of the planet, rel: API address for the planet.
-24 discoveredBy string Name of the discoverer of the star.
-25 discoveryDate string Date of discovery of the star
-26 alternativeName string Temporary designation.
-27 axialTilt decimal Tilt on the axis.
+
+@markdown
+
+# Solar System API Dokumentation
+
+<a name="intro"></a>
+### Einführung
+
+Willkommen zur Solar System API! Diese Dokumentation soll Ihnen helfen, sich mit den verfügbaren Ressourcen vertraut zu machen und wie Sie diese mit HTTP-Anfragen verwenden können. Lesen Sie sich den Abschnitt *Erste Schritte* durch, bevor Sie eintauchen. Die meisten Ihrer Probleme sollten allein durch das Durchlesen gelöst werden.
+
+Welche Daten sind überhaupt enthalten?
+
+-Alle Planeten und ihre Monde,
+-Alle Zwergplaneten
+-Alle Hauptasteroiden
+-Physikalische Eigenschaften wie Abmessungen, Masse, Abflachung, Schwerkraft, Neigung und Temperatur.
+-Orbital-Parameter wie Semimajorachse, Perihel, Aphel, Exzentrizität, Orbitalperiode und Orbitalgeschwindigkeit.
+-Geschichtliche Eigenschaften wie Entdeckungsumstände, Entdecker, Entdeckungsjahr und vorläufige Bezeichnung.
+
+<a name="start"></a>
+### Erste Schritte
+
+
+Lassen Sie uns unsere erste API-Anfrage an die Solar System API stellen!
+
+Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen.
+
+```
+http solar.api.webmasters.de/terre
+```
+
+Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es die Antworten gut anzeigt und uns eine ganze Reihe weiterer nützlicher Informationen liefert. Wenn Sie [httpie] nicht herunterladen wollen, benutzen Sie stattdessen einfach den Befehl *curl*.
+
+Hier ist die Antwort, die wir erhalten:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "alternativeName": "",
+    "aphelion": "152100000.0",
+    "aroundPlanet": null,
+    "axialTilt": "23.4393",
+    "density": "5.5136",
+    "dimension": "",
+    "discoveredBy": "",
+    "discoveryDate": "",
+    "eccentricity": "0.0167",
+    "equaRadius": "6378.1366",
+    "escape": "11190.0",
+    "flattening": "0.00335",
+    "gravity": "9.8",
+    "id": "terre",
+    "inclination": "0.0",
+    "isPlanet": "1",
+    "mass": {
+        "massExponent": 24,
+        "massValue": 5.97237
+    },
+    "meanRadius": "6371.0084",
+    "moons": [
+        {
+            "moon": "La Lune"
+        }
+    ],
+    "name": "Earth",
+    "perihelion": "147095000.0",
+    "polarRadius": "6356.8",
+    "semimajorAxis": "149598262.0",
+    "sideralOrbit": "365.256",
+    "sideralRotation": "23.9345",
+    "vol": {
+        "volExponent": 12,
+        "volValue": 1.08321
+    }
+}
+```
+
+Wenn Ihre Antwort etwas anders aussieht, geraten Sie nicht in Panik. Das liegt wahrscheinlich daran, dass seit der Erstellung dieser Dokumentation mehr Daten zur API hinzugefügt wurden.
+
+<a name="base"></a>
+### Basis-URL
+
+Die **Basis-URL** ist die Root-URL für die gesamte API. Wenn Sie jemals eine Anfrage an Swapi stellen und eine **404 NOT FOUND**-Antwort zurückerhalten, überprüfen Sie zuerst die Basis-URL.
+
+Die Basis-URL für Solar System lautet:
+
+`https://solar.api.webmasters.de/`
+
+In der folgenden Dokumentation wird davon ausgegangen, dass Sie die Basis-URL den Endpunkten voranstellen, um Anfragen zu stellen.
+
+<a name="rate"></a>
+### Limitierung der Rate
+
+Solar System hat eine Ratenbegrenzung, um böswilligen Missbrauch zu verhindern und um sicherzustellen, dass unser Dienst eine potenziell große Menge an Datenverkehr bewältigen kann. Die Ratenbeschränkung erfolgt über die IP-Adresse und ist derzeit auf 1000 API-Anfragen pro Tag beschränkt. Das reicht aus, um alle Daten auf der Website einige Male abzufragen. Es sollte keinen Grund geben, die Ratenbegrenzung zu erreichen.
+
+<a name="auth"></a>
+### Authentifizierung
+
+Solar System ist eine **vollständig offene API**. Es ist keine Authentifizierung erforderlich, um Daten abzufragen und zu erhalten. Das bedeutet auch, dass wir Ihre Möglichkeiten auf das Erhalten **(GET)** der Daten beschränkt haben. Wenn Sie einen Fehler in den Daten finden, dann erstellen Sie doch ein Issue in Github.
+
+<a name="search"></a>
+### Suche
+
+Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
+
+```
+https://solar.api.webmasters.de?filter[name]=earth
+```
+
+ Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
+
+# Kodierungen
+- - -
+
+JSON ist das standardmäßig bereitgestellte Datenformat.
+
+# Resources
+- - -
+
+<a name="bodies"></a>
+### Sterne
+
+**Endpunkte**
+
+- ```/bodies/``` -- Alle Sterne in einer Anfrage
+- ```/bodies/:id/``` -- Gibt alle Daten eines Sterns zurück:
+
+**Beispiel Anfrage:**
+
+```
+http https://solar.api.webmasters.de/terre
+```
+
+**Beispiel Antwort:**
+
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "alternativeName": "",
+    "aphelion": "152100000.0",
+    "aroundPlanet": null,
+    "axialTilt": "23.4393",
+    "density": "5.5136",
+    "dimension": "",
+    "discoveredBy": "",
+    "discoveryDate": "",
+    "eccentricity": "0.0167",
+    "equaRadius": "6378.1366",
+    "escape": "11190.0",
+    "flattening": "0.00335",
+    "gravity": "9.8",
+    "id": "terre",
+    "inclination": "0.0",
+    "isPlanet": "1",
+    "mass": {
+        "massExponent": 24,
+        "massValue": 5.97237
+    },
+    "meanRadius": "6371.0084",
+    "moons": [
+        {
+            "moon": "La Lune"
+        }
+    ],
+    "name": "Earth",
+    "perihelion": "147095000.0",
+    "polarRadius": "6356.8",
+    "semimajorAxis": "149598262.0",
+    "sideralOrbit": "365.256",
+    "sideralRotation": "23.9345",
+    "vol": {
+        "volExponent": 12,
+        "volValue": 1.08321
+    }
+}
+```
+
+**Attribute:**
+
+- ```id``` *string*
+-- Id des Körpers in der API.
+- ```name``` *string*
+-- Name des Körpers in Englisch.
+- ```isPlanet``` *boolean*
+-- Ist der Körpers ein Planet?
+- ```moons``` *json*
+-- Array mit allen Namen von Monden, die dem Körper zugehörig sind.
+- ```semimajorAxis``` *string*
+-- Semimajor Achse des Körpers in Kilometern.
+- ```perihelion``` *string*
+-- Perihel in Kilometern.
+- ```aphelion``` *string*
+-- Aphel in Kilometern.
+- ```eccentricity``` *string*
+-- Orbitale Exzentrizität.
+- ```inclination``` *string*
+-- Orbitalneigung in Grad.
+- ```mass``` *json*
+-- Körper Masse in 10n kg.
+massValue: Körpermasse, massExponent: Exponent 10.
+- ```vol``` *json*
+-- Körpervolumen in 10n kg.
+volValue: Körpervolumen, volExponent: Exponant 10.
+- ```density``` *string*
+-- Körperdichte in g.cm3.
+- ```gravity``` *string*
+-- Oberflächenschwerkraft in m.s-2.
+- ```escape``` *string*
+-- Fluchtgeschwindigkeit in m.s-1.
+- ```meanRadius``` *string*
+-- Mittlerer Radius in Kilometern.
+- ```equaRadius``` *string*
+-- Äquatorialer Radius in Kilometern.
+- ```polarRadius``` *string*
+-- Polarradius in Kilometern.
+- ```flattening``` *string*
+-- Abflachung.
+- ```dimension``` *string*
+-- Körpermaß auf den 3 Achsen X, Y und Z für nicht-sphärische Körper.
+- ```sideralOrbit``` *string*
+-- Sideral Orbitalzeit für einen Körper um einen anderen (die Sonne oder einen Planeten) am Erdentag.
+- ```sideralRotation``` *string*
+-- Sideralrotation, notwendige Zeit, um sich um sich selbst zu drehen, in Stunde.
+- ```aroundPlanet``` *json*
+-- Für einen Mond der Name des Planet, den er umkreist.
+- ```discoveredBy``` *string*
+-- Name der Entdeckung.
+- ```discoveryDate``` *string*
+-- Datum der Entdeckung.
+- ```alternativeName``` *string*
+-- Vorläufiger Name.
+- ```axialTilt``` *string*
+-- Axiale Neigung.
+
+
+**Suchfelder:**
+
+- ```name```
+- ```alternativeName```
+- ```discoveredBy```

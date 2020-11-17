@@ -17,7 +17,6 @@ class Body extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'englishName' => $this->englishName,
             'isPlanet' => $this->isPlanet,
             'moons' => json_decode($this->moons),
             'semimajorAxis' => $this->semimajorAxis,
