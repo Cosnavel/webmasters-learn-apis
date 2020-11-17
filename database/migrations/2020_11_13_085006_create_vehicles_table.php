@@ -15,7 +15,8 @@ class CreateVehiclesTable extends Migration
     {
         Schema::create('vehicles', function (Blueprint $table) {
             $table->id();
-            $table->json('fields');
+            $table->string('vehicle_class');
+            $table->json('pilots');
         });
     }
 

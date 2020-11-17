@@ -22,7 +22,19 @@ class SpecieSeeder extends Seeder
         foreach ($data as $item) {
             $specie = new Specie();
             $specie->id = $item->id;
-            $specie->fields = json_encode($item->fields);
+            $specie->edited = $item->fields->edited;
+            $specie->classification = $item->fields->classification;
+            $specie->name = $item->fields->name;
+            $specie->designation = $item->fields->designation;
+            $specie->created = $item->fields->created;
+            $specie->eye_colors = $item->fields->eye_colors;
+            $specie->people = json_encode($item->fields->people);
+            $specie->skin_colors = $item->fields->skin_colors;
+            $specie->language = $item->fields->language;
+            $specie->hair_colors = $item->fields->hair_colors;
+            $specie->homeworld = $item->fields->homeworld;
+            $specie->average_lifespan = $item->fields->average_lifespan;
+            $specie->average_height = $item->fields->average_height;
             $specie->save();
         }
     }

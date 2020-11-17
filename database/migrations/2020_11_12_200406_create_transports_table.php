@@ -15,7 +15,17 @@ class CreateTransportsTable extends Migration
     {
         Schema::create('transports', function (Blueprint $table) {
             $table->id();
-            $table->json('fields');
+            $table->string('edited');
+            $table->string('consumables');
+            $table->string('name');
+            $table->string('created');
+            $table->string('cargo_capacity');
+            $table->string('passengers');
+            $table->string('max_atmosphering_speed');
+            $table->string('crew');
+            $table->string('length');
+            $table->string('cost_in_credits');
+            $table->string('manufacturer');
         });
     }
 

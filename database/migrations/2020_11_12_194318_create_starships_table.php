@@ -15,7 +15,10 @@ class CreateStarshipsTable extends Migration
     {
         Schema::create('starships', function (Blueprint $table) {
             $table->id();
-            $table->json('fields');
+            $table->json('pilots');
+            $table->string('MGLT');
+            $table->string('starship_class');
+            $table->string('hyperdrive_rating');
         });
     }
 

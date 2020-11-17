@@ -22,7 +22,17 @@ class PlanetSeeder extends Seeder
         foreach ($data as $item) {
             $planet = new Planet();
             $planet->id = $item->id;
-            $planet->fields = json_encode($item->fields);
+            $planet->edited = $item->fields->edited;
+            $planet->climate = $item->fields->climate;
+            $planet->surface_water = $item->fields->surface_water;
+            $planet->name = $item->fields->name;
+            $planet->diameter = $item->fields->diameter;
+            $planet->rotation_period = $item->fields->rotation_period;
+            $planet->created = $item->fields->created;
+            $planet->terrain = $item->fields->terrain;
+            $planet->gravity = $item->fields->gravity;
+            $planet->orbital_period = $item->fields->orbital_period;
+            $planet->population = $item->fields->population;
             $planet->save();
         }
     }

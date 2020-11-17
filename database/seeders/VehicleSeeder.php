@@ -22,7 +22,8 @@ class VehicleSeeder extends Seeder
         foreach ($data as $item) {
             $vehicle = new Vehicle();
             $vehicle->id = $item->id;
-            $vehicle->fields = json_encode($item->fields);
+            $vehicle->vehicle_class = $item->fields->vehicle_class;
+            $vehicle->pilots = json_encode($item->fields->pilots);
             $vehicle->save();
         }
     }

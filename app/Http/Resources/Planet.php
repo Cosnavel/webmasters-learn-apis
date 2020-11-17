@@ -14,9 +14,6 @@ class Planet extends JsonResource
      */
     public function toArray($request)
     {
-        return [
-            'id' => $this->id,
-            'fields' => json_decode($this->fields),
-        ];
+        return parent::toArray($request);
     }
 }

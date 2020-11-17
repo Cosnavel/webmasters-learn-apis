@@ -22,7 +22,10 @@ class StarshipSeeder extends Seeder
         foreach ($data as $item) {
             $starship = new Starship();
             $starship->id = $item->id;
-            $starship->fields = json_encode($item->fields);
+            $starship->pilots = json_encode($item->fields->pilots);
+            $starship->MGLT = $item->fields->MGLT;
+            $starship->starship_class = $item->fields->starship_class;
+            $starship->hyperdrive_rating = $item->fields->hyperdrive_rating;
             $starship->save();
         }
     }
