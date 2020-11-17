@@ -30,7 +30,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Solar System API stellen!
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen.
 
 ```
-http solar.api.webmasters.de/terre
+http solar.api.webmasters.de/bodies/terre
 ```
 
 Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es die Antworten gut anzeigt und uns eine ganze Reihe weiterer nützlicher Informationen liefert. Wenn Sie [httpie] nicht herunterladen wollen, benutzen Sie stattdessen einfach den Befehl *curl*.
@@ -111,7 +111,7 @@ Solar System ist eine **vollständig offene API**. Es ist keine Authentifizierun
 Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
 
 ```
-https://solar.api.webmasters.de?filter[name]=earth
+https://solar.api.webmasters.de/bodies?filter[name]=earth
 ```
 
  Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
@@ -135,7 +135,7 @@ JSON ist das standardmäßig bereitgestellte Datenformat.
 **Beispiel Anfrage:**
 
 ```
-http https://solar.api.webmasters.de/terre
+http https://solar.api.webmasters.de/bodies/terre
 ```
 
 **Beispiel Antwort:**
@@ -246,3 +246,8 @@ volValue: Körpervolumen, volExponent: Exponant 10.
 - ```name```
 - ```alternativeName```
 - ```discoveredBy```
+
+
+@endmarkdown
+
+@endsection

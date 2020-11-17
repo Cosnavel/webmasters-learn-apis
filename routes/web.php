@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::domain('swapi.api.test')->get('/documentation', function () {
     return view('documentation.swapi');
 });
+Route::domain('solar.api.test')->get('/documentation', function () {
+    return view('documentation.solar');
+});
