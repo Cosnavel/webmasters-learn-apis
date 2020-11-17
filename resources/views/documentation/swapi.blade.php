@@ -77,7 +77,7 @@ Swapi ist eine **vollständig offene API**. Es ist keine Authentifizierung erfor
 Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
 
 ```
-https://swapi.api.webmasters.de/people?filter[name]=john
+https://swapi.api.webmasters.de/people?filter[name]=luke
 ```
 
  Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
@@ -101,19 +101,19 @@ Die Root-Ressource bietet Informationen über alle verfügbaren Ressourcen inner
 http https://swapi.api.webmasters.de/
 ```
 
-**Beispiel-Antwort:**
+**Beispiel Antwort:**
 
 ```
 HTTP/1.0 200 OK
-    Content-Type: application/json
-    {
-        "films": "https://swapi.api.webmasters.de/films/",
-        "people": "https://swapi.api.webmasters.de/people/",
-        "planets": "https://swapi.api.webmasters.de/planets/",
-        "species": "https://swapi.api.webmasters.de/species/",
-        "starships": "https://swapi.api.webmasters.de/starships/",
-        "vehicles": "https://swapi.api.webmasters.de/vehicles/"
-    }
+Content-Type: application/json
+{
+    "films": "https://swapi.api.webmasters.de/films",
+    "people": "https://swapi.api.webmasters.de/people",
+    "planets": "https://swapi.api.webmasters.de/planets",
+    "species": "https://swapi.api.webmasters.de/species",
+    "starships": "https://swapi.api.webmasters.de/starships",
+    "vehicles": "https://swapi.api.webmasters.de/vehicles"
+}
 ```
 
 **Attribute:**
@@ -146,496 +146,456 @@ Eine People-Ressource ist eine einzelne Person oder ein einzelner Charakter inne
 
 **Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/people/1/
+```
+http https://swapi.api.webmasters.de/people/1/
+```
 
-**Beispiel-Antwort:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
-    {
-        "birth_year": "19 BBY",
-        "eye_color": "Blue",
-        "films": [
-            "https://swapi.api.webmasters.de/films/1/",
-            ...
-        ],
-        "gender": "Male",
-        "hair_color": "Blond",
-        "height": "172",
-        "homeworld": "https://swapi.api.webmasters.de/planets/1/",
-        "mass": "77",
-        "name": "Luke Skywalker",
-        "skin_color": "Fair",
-        "created": "2014-12-09T13:50:51.644000Z",
-        "edited": "2014-12-10T13:52:43.172000Z",
-        "species": [
-            "https://swapi.api.webmasters.de/species/1/"
-        ],
-        "starships": [
-            "https://swapi.api.webmasters.de/starships/12/",
-            ...
-        ],
-        "url": "https://swapi.api.webmasters.de/people/1/",
-        "vehicles": [
-            "https://swapi.api.webmasters.de/vehicles/14/"
-            ...
-        ]
-    }
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "birth_year": "19BBY",
+    "created": "2014-12-09T13:50:51.644Z",
+    "edited": "2014-12-20T21:17:56.891Z",
+    "eye_color": "blue",
+    "gender": "male",
+    "hair_color": "blond",
+    "height": "172",
+    "homeworld": "1",
+    "id": 1,
+    "mass": "77",
+    "name": "Luke Skywalker",
+    "skin_color": "fair"
+}
+```
 
-**Attributes:**
+**Attribute:**
 
 - ```name``` *string*
 -- Der Name dieser Person.
 - ```birth_year``` *string*
--- The birth year of the person, using the in-universe standard of **BBY** or **ABY** - Before the Battle of Yavin or After the Battle of Yavin. The Battle of Yavin is a battle that occurs at the end of Star Wars episode IV: A New Hope.
+-- Das Geburtsjahr der Person unter Verwendung des universumsinternen Standards von **BBY** oder **ABY** - vor der Schlacht von Yavin oder nach der Schlacht von Yavin. Die Schlacht von Yavin ist eine Schlacht, die am Ende der Star Wars-Episode IV: Eine neue Hoffnung stattfindet.
 - ```eye_color``` *string*
--- The eye color of this person. Will be "unknown" if not known or "n/a" if the person does not have an eye.
+-- Die Augenfarbe dieser Person. Wird "unknown" sein, wenn sie nicht bekannt ist, oder "n/a", wenn die Person kein Auge hat.
 - ```gender``` *string*
--- The gender of this person. Either "Male", "Female" or "unknown", "n/a" if the person does not have a gender.
+-- Das Geschlecht dieser Person. Entweder "Male", "Female" oder "unknown", "n/a", wenn die Person kein Geschlecht hat.
 - ```hair_color``` *string*
--- The hair color of this person. Will be "unknown" if not known or "n/a" if the person does not have hair.
+-- Die Haarfarbe dieser Person. Wird "unknown" sein, wenn sie nicht bekannt ist, oder "n/a", wenn die Person keine Haare hat.
 - ```height``` *string*
--- The height of the person in centimeters.
+-- Die Größe der Person in Zentimetern.
 - ```mass``` *string*
--- The mass of the person in kilograms.
+-- Die Masse der Person in Kilogramm.
 - ```skin_color``` *string*
--- The skin color of this person.
+-- Die Hautfarbe dieser Person.
 - ```homeworld``` *string*
--- The URL of a planet resource, a planet that this person was born on or inhabits.
-- ```films``` *array*
--- An array of film resource URLs that this person has been in.
-- ```species``` *array*
--- An array of species resource URLs that this person belongs to.
-- ```starships``` *array*
--- An array of starship resource URLs that this person has piloted.
-- ```vehicles``` *array*
--- An array of vehicle resource URLs that this person has piloted.
-- ```url``` *string*
--- the hypermedia URL of this resource.
+-- Die ID einer Planet Ressource, ein Planet, auf dem diese Person geboren wurde oder den sie bewohnt.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 - ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
+-- Das ISO 8601-Datumsformat der Zeit, zu der diese Ressource erstellt wurde.
 - ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Das ISO 8601 Datumsformat der Zeit, zu der diese Ressource bearbeitet wurde.
 
-**Search Fields:**
+**Suchfelder:**
 
 - ```name```
 
 - - -
 <a name="films"></a>
-###Films
+### Filme
 
-A Film resource is a single film.
+Eine Film-Ressource ist ein einzelner Film.
 
-**Endpoints**
+**Endpunkte**
 
-- ```/films/``` -- get all the film resources
-- ```/films/:id/``` -- get a specific film resource
-- ```/films/schema/``` -- view the JSON schema for this resource
+- ```/films/``` -- erhalte alle film resources
+- ```/films/:id/``` -- erhalte eine bestimmte film resource
 
-**Example request:**
+**Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/films/1/
+```
+http https://swapi.api.webmasters.de/films/1
+```
 
-**Example response:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
-    {
-        "characters": [
-            "https://swapi.api.webmasters.de/people/1/",
-            ...
-        ],
-        "created": "2014-12-10T14:23:31.880000Z",
-        "director": "George Lucas",
-        "edited": "2014-12-12T11:24:39.858000Z",
-        "episode_id": 4,
-        "opening_crawl": "It is a period of civil war.\n\nRebel spaceships, striking\n\nfrom a hidden base, have won\n\ntheir first victory against\n\nthe evil Galactic Empire.\n\n\n\nDuring the battle, Rebel\n\nspies managed to steal secret\r\nplans to the Empire's\n\nultimate weapon, the DEATH\n\nSTAR, an armored space\n\nstation with enough power\n\nto destroy an entire planet.\n\n\n\nPursued by the Empire's\n\nsinister agents, Princess\n\nLeia races home aboard her\n\nstarship, custodian of the\n\nstolen plans that can save her\n\npeople and restore\n\nfreedom to the galaxy....",
-        "planets": [
-            "https://swapi.api.webmasters.de/planets/1/",
-            ...
-        ],
-        "producer": "Gary Kurtz, Rick McCallum",
-        "release_date": "1977-05-25",
-        "species": [
-            "https://swapi.api.webmasters.de/species/1/",
-            ...
-        ],
-        "starships": [
-            "https://swapi.api.webmasters.de/starships/2/",
-            ...
-        ],
-        "title": "A New Hope",
-        "url": "https://swapi.api.webmasters.de/films/1/",
-        "vehicles": [
-            "https://swapi.api.webmasters.de/vehicles/4/",
-            ...
-        ]
-    }
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+"characters": "[1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,18,19,81]",
+"created": "2014-12-10T14:23:31.880Z",
+"director": "George Lucas",
+"edited": "2014-12-20T19:49:45.256Z",
+"episode_id": "4",
+"id": 1,
+"opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+"planets": "[1,2,3]",
+"producer": "Gary Kurtz, Rick McCallum",
+"release_date": "1977-05-25",
+"species": "[1,2,3,4,5]",
+"starships": "[2,3,5,9,10,11,12,13]",
+"title": "A New Hope",
+"vehicles": "[4,6,7,8]"
+}
+```
 
-**Attributes:**
+**Attribute:**
 
 - ```title``` *string*
--- The title of this film
-- ```episode_id``` *integer*
--- The episode number of this film.
+-- Der Titel dieses Films
+- ```episode_id``` *string*
+-- Die Episodennummer dieses Films.
 - ```opening_crawl``` *string*
--- The opening paragraphs at the beginning of this film.
+-- Die einleitenden Absätze am Anfang des Films.
 - ```director``` *string*
--- The name of the director of this film.
+-- Der Name des Regisseurs dieses Films.
 - ```producer``` *string*
--- The name(s) of the producer(s) of this film. Comma separated.
-- ```release_date``` *date*
--- The ISO 8601 date format of film release at original creator country.
+-- Der/die Name(n) des/der Produzenten dieses Films. Komma getrennt.
+- ```release_date``` *string*
+-- Das ISO 8601 Datumsformat der Filmveröffentlichung im Land des ursprünglichen Urhebers.
 - ```species``` *array*
--- An array of species resource URLs that are in this film.
+-- Ein Array von species resources, die in diesem Film vorkommen.
 - ```starships``` *array*
--- An array of starship resource URLs that are in this film.
+-- Ein Array von starship resources, die in diesem Film vorkommen.
 - ```vehicles``` *array*
--- An array of vehicle resource URLs that are in this film.
+-- Ein Array von vehicle resources, die in diesem Film vorkommen.
 - ```characters``` *array*
--- An array of people resource URLs that are in this film.
+-- Ein Array von people resources, die in diesem Film vorkommen.
 - ```planets``` *array*
--- An array of planet resource URLs that are in this film.
-- ```url``` *string*
--- the hypermedia URL of this resource.
+-- Ein Array von planet resources, die in diesem Film vorkommen.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 - ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
+-- Das ISO 8601-Datumsformat der Zeit, zu der diese Ressource erstellt wurde.
 - ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Das ISO 8601 Datumsformat der Zeit, zu der diese Ressource bearbeitet wurde.
 
-**Search Fields:**
+**Suchfelder:**
 
+- ```director```
+- ```producer```
 - ```title```
 
 - - -
 <a name="starships"></a>
-###Starships
+### Raumschiffe
 
-A Starship resource is a single transport craft that has hyperdrive capability.
+Eine Raumschiff-Ressource ist ein einzelnes Transportfahrzeug mit Hyperantriebsfähigkeit.
 
-**Endpoints**
+**Endpunkte**
 
-- ```/starships/``` -- get all the starship resources
-- ```/starships/:id/``` -- get a specific starship resource
-- ```/starships/schema/``` -- view the JSON schema for this resource
+- ```/starships/``` -- erhalte alle starship resources
+- ```/starships/:id/``` -- erhalte eine bestimmte starship resource
 
-**Example request:**
+**Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/starships/9/
+```
+http https://swapi.api.webmasters.de/starships/21
+```
 
-**Example response:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
-    {
-        "MGLT": "10 MGLT",
-        "cargo_capacity": "1000000000000",
-        "consumables": "3 years",
-        "cost_in_credits": "1000000000000",
-        "created": "2014-12-10T16:36:50.509000Z",
-        "crew": "342953",
-        "edited": "2014-12-10T16:36:50.509000Z",
-        "hyperdrive_rating": "4.0",
-        "length": "120000",
-        "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
-        "max_atmosphering_speed": "n/a",
-        "model": "DS-1 Orbital Battle Station",
-        "name": "Death Star",
-        "passengers": "843342",
-        "films": [
-            "https://swapi.api.webmasters.de/films/1/"
-        ],
-        "pilots": [],
-        "starship_class": "Deep Space Mobile Battlestation",
-        "url": "https://swapi.api.webmasters.de/starships/9/"
-    }
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "MGLT": "70",
+    "hyperdrive_rating": "3.0",
+    "id": 21,
+    "pilots": "[22]",
+    "starship_class": "Patrol craft"
+}
+```
 
-**Attributes:**
+**Attribute:**
 
-- ```name``` *string*
--- The name of this starship. The common name, such as "Death Star".
-- ```model``` *string*
--- The model or official name of this starship. Such as "T-65 X-wing" or "DS-1 Orbital Battle Station".
 - ```starship_class``` *string*
--- The class of this starship, such as "Starfighter" or "Deep Space Mobile Battlestation"
-- ```manufacturer``` *string*
--- The manufacturer of this starship. Comma separated if more than one.
-- ```cost_in_credits``` *string*
--- The cost of this starship new, in galactic credits.
-- ```length``` *string*
--- The length of this starship in meters.
-- ```crew``` *string*
--- The number of personnel needed to run or pilot this starship.
-- ```passengers``` *string*
--- The number of non-essential people this starship can transport.
-- ```max_atmosphering_speed``` *string*
--- The maximum speed of this starship in the atmosphere. "N/A" if this starship is incapable of atmospheric flight.
+-- Die Klasse dieses Raumschiffs, wie z.B. "Starfighter" oder "Deep Space Mobile Battlestation"
 - ```hyperdrive_rating``` *string*
--- The class of this starships hyperdrive.
+-- Die Klasse dieses Raumschiff-Hyperantriebs.
 - ```MGLT``` *string*
--- The Maximum number of Megalights this starship can travel in a standard hour. A "Megalight" is a standard unit of distance and has never been defined before within the Star Wars universe. This figure is only really useful for measuring the difference in speed of starships. We can assume it is similar to AU, the distance between our Sun (Sol) and Earth.
-- ```cargo_capacity``` *string*
--- The maximum number of kilograms that this starship can transport.
-- ```consumables``` *string
-- The maximum length of time that this starship can provide consumables for its entire crew without having to resupply.
-- ```films``` *array*
--- An array of Film URL Resources that this starship has appeared in.
+-- Die maximale Anzahl von Megalights, die dieses Raumschiff in einer Standardstunde reisen kann. Ein "Megalight" ist eine Standardeinheit der Entfernung und wurde im Star Wars-Universum noch nie zuvor definiert. Diese Zahl ist nur für die Messung des Geschwindigkeitsunterschieds von Raumschiffen wirklich nützlich. Wir können davon ausgehen, dass sie ähnlich wie AU, die Entfernung zwischen unserer Sonne (Sol) und der Erde, ist.
 - ```pilots``` *array*
--- An array of People URL Resources that this starship has been piloted by.
-- ```url``` *string*
--- the hypermedia URL of this resource.
-- ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
-- ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Ein Array von people resources, von denen dieses Raumschiff gesteuert wurde.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 
-**Search Fields:**
+**Suchfelder:**
 
-- ```name```
-- ```model```
+- ```starship_class```
+- ```MGLT```
 
 - - -
 <a name="vehicles"></a>
-###Vehicles
+### Fahrzeuge
 
-A Vehicle resource is a single transport craft that **does not have** hyperdrive capability.
+Eine Fahrzeug-Ressource ist ein einzelnes Transportfahrzeug, das **keine** Hyperantriebsfähigkeit besitzt.
 
-**Endpoints**
+**Endpunkte**
 
-- ```/vehicles/``` -- get all the vehicle resources
-- ```/vehicles/:id/``` -- get a specific vehicle resource
-- ```/vehicles/schema/``` -- view the JSON schema for this resource
+- ```/vehicles/``` -- erhalte alle vehicle resources
+- ```/vehicles/:id/``` -- erhalte eine bestimmte vehicle resource
 
-**Example request:**
+**Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/vehicles/4/
+```
+http https://swapi.api.webmasters.de/vehicles/4/
+```
 
-**Example response:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "id": 14,
+    "pilots": "[1,18]",
+    "vehicle_class": "airspeeder"
+}
+```
 
-    {
-        "cargo_capacity": "50000",
-        "consumables": "2 months",
-        "cost_in_credits": "150000",
-        "created": "2014-12-10T15:36:25.724000Z",
-        "crew": "46",
-        "edited": "2014-12-10T15:36:25.724000Z",
-        "length": "36.8",
-        "manufacturer": "Corellia Mining Corporation",
-        "max_atmosphering_speed": "30",
-        "model": "Digger Crawler",
-        "name": "Sand Crawler",
-        "passengers": "30",
-        "pilots": [],
-        "films": [
-            "https://swapi.api.webmasters.de/films/1/"
-        ],
-        "url": "https://swapi.api.webmasters.de/vehicles/4/",
-        "vehicle_class": "wheeled"
-    }
+**Attribute:**
 
-**Attributes:**
-
-- ```name``` *string*
--- The name of this vehicle. The common name, such as "Sand Crawler" or "Speeder bike".
-- ```model``` *string*
--- The model or official name of this vehicle. Such as "All-Terrain Attack Transport".
 - ```vehicle_class``` *string*
--- The class of this vehicle, such as "Wheeled" or "Repulsorcraft".
-- ```manufacturer``` *string*
--- The manufacturer of this vehicle. Comma separated if more than one.
-- ```length``` *string*
--- The length of this vehicle in meters.
-- ```cost_in_credits``` *string*
--- The cost of this vehicle new, in Galactic Credits.
-- ```crew``` *string*
--- The number of personnel needed to run or pilot this vehicle.
-- ```passengers``` *string*
--- The number of non-essential people this vehicle can transport.
-- ```max_atmosphering_speed``` *string*
--- The maximum speed of this vehicle in the atmosphere.
-- ```cargo_capacity``` *string*
--- The maximum number of kilograms that this vehicle can transport.
-- ```consumables``` *string
-- The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply.
-- ```films``` *array*
--- An array of Film URL Resources that this vehicle has appeared in.
+-- Die Klasse dieses Fahrzeugs, wie z.B. "Wheeled" oder "Repulsorcraft".
 - ```pilots``` *array*
--- An array of People URL Resources that this vehicle has been piloted by.
-- ```url``` *string*
--- the hypermedia URL of this resource.
-- ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
-- ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Ein Array von people resources, von denen dieses Fahrzeug gesteuert wurde.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 
-**Search Fields:**
+**Suchfelder:**
 
-- ```name```
-- ```model```
+- ```vehicle_class```
 
 - - -
 <a name="species"></a>
-###Species
+### Spezies
 
-A Species resource is a type of person or character within the Star Wars Universe.
+Eine Spezies-Ressource ist eine Art von Person oder Charakter innerhalb des Star Wars-Universums.
 
-**Endpoints**
+**Endpunkte**
 
-- ```/species/``` -- get all the species resources
-- ```/species/:id/``` -- get a specific species resource
-- ```/species/schema/``` -- view the JSON schema for this resource
+- ```/species/``` -- erhalte alle species resources
+- ```/species/:id/``` -- erhalte eine bestimmte species resource
 
-**Example request:**
+**Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/species/3/
+```
+http https://swapi.api.webmasters.de/species/3/
+```
 
-**Example response:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "average_height": "210",
+    "average_lifespan": "400",
+    "classification": "mammal",
+    "created": "2014-12-10T16:44:31.486Z",
+    "designation": "sentient",
+    "edited": "2014-12-20T21:36:42.142Z",
+    "eye_colors": "blue, green, yellow, brown, golden, red",
+    "hair_colors": "black, brown",
+    "homeworld": "14",
+    "id": 3,
+    "language": "Shyriiwook",
+    "name": "Wookie",
+    "people": "[13,80]",
+    "skin_colors": "gray"
+}
+```
 
-    {
-        "average_height": "2.1",
-        "average_lifespan": "400",
-        "classification": "Mammal",
-        "created": "2014-12-10T16:44:31.486000Z",
-        "designation": "Sentient",
-        "edited": "2014-12-10T16:44:31.486000Z",
-        "eye_colors": "blue, green, yellow, brown, golden, red",
-        "hair_colors": "black, brown",
-        "homeworld": "https://swapi.api.webmasters.de/planets/14/",
-        "language": "Shyriiwook",
-        "name": "Wookie",
-        "people": [
-            "https://swapi.api.webmasters.de/people/13/"
-        ],
-        "films": [
-            "https://swapi.api.webmasters.de/films/1/",
-            "https://swapi.api.webmasters.de/films/2/"
-        ],
-        "skin_colors": "gray",
-        "url": "https://swapi.api.webmasters.de/species/3/"
-    }
-
-**Attributes:**
+**Attribute:**
 
 - ```name``` *string*
--- The name of this species.
+-- Der Name dieser Art.
 - ```classification``` *string*
--- The classification of this species, such as "mammal" or "reptile".
+-- Die Klassifizierung dieser Art, wie z.B. "Säugetier" oder "Reptil".
 - ```designation``` *string*
--- The designation of this species, such as "sentient".
+-- Die Kennzeichnung dieser Art, wie z.B. "empfindungsfähig".
 - ```average_height``` *string*
--- The average height of this species in centimeters.
+-- Die durchschnittliche Höhe dieser Art in Zentimetern.
 - ```average_lifespan``` *string*
--- The average lifespan of this species in years.
+-- Die durchschnittliche Lebensdauer dieser Art in Jahren.
 - ```eye_colors``` *string*
--- A comma-separated string of common eye colors for this species, "none" if this species does not typically have eyes.
+-- Eine durch Komma getrennte Reihe von gemeinsamen Augenfarben für diese Art, "keine", wenn diese Art typischerweise keine Augen hat.
 - ```hair_colors``` *string*
--- A comma-separated string of common hair colors for this species, "none" if this species does not typically have hair.
+-- Eine durch Komma getrennte Reihe von gemeinsamen Haarfarben für diese Art, "keine", wenn diese Art typischerweise keine Haare hat.
 - ```skin_colors``` *string*
--- A comma-separated string of common skin colors for this species, "none" if this species does not typically have skin.
+-- Eine durch Komma getrennte Zeichenfolge der üblichen Hautfarben für diese Art, "keine", wenn diese Art keine typische Haut hat.
 - ```language``` *string*
--- The language commonly spoken by this species.
+-- Die von dieser Art allgemein gesprochene Sprache.
 - ```homeworld``` *string*
--- The URL of a planet resource, a planet that this species originates from.
+-- Die ID einer Planet Ressource, eines Planeten, von dem diese Spezies abstammt.
 - ```people``` *array*
--- An array of People URL Resources that are a part of this species.
-- ```films``` *array*
--- An array of Film URL Resources that this species has appeared in.
-- ```url``` *string*
--- the hypermedia URL of this resource.
+-- Ein Array von people resources, die zu dieser Spezies gehören.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 - ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
+-- Das ISO 8601-Datumsformat der Zeit, zu der diese Ressource erstellt wurde.
 - ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Das ISO 8601 Datumsformat der Zeit, zu der diese Ressource bearbeitet wurde.
 
-**Search Fields:**
+**Suchfelder:**
 
 - ```name```
+- ```classification```
+- ```designation```
+- ```language```
 
 - - -
 <a name="planets"></a>
-###Planets
+### Planeten
 
-A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY.
+Eine Planeten-Ressource ist eine große Masse, ein Planet oder Planetoid im Star Wars-Universum zum Zeitpunkt 0 ABY.
 
-**Endpoints**
+**Endpunkte**
 
-- ```/planets/``` -- get all the planets resources
-- ```/planets/:id/``` -- get a specific planets resource
-- ```/planets/schema/``` -- view the JSON schema for this resource
+- ```/planets/``` -- erhalte alle planets resources
+- ```/planets/:id/``` -- erhalte eine bestimmte planets resource
 
-**Example request:**
+**Beispiel Anfrage:**
 
-    http https://swapi.api.webmasters.de/planets/1/
+```
+http https://swapi.api.webmasters.de/planets/1/
+```
 
-**Example response:**
+**Beispiel Antwort:**
 
-    HTTP/1.0 200 OK
-    Content-Type: application/json
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "climate": "arid",
+    "created": "2014-12-09T13:50:49.641Z",
+    "diameter": "10465",
+    "edited": "2014-12-20T20:58:18.411Z",
+    "gravity": "1 standard",
+    "id": 1,
+    "name": "Tatooine",
+    "orbital_period": "304",
+    "population": "200000",
+    "rotation_period": "23",
+    "surface_water": "1",
+    "terrain": "desert"
+}
+```
 
-    {
-        "climate": "Arid",
-        "created": "2014-12-09T13:50:49.641000Z",
-        "diameter": "10465",
-        "edited": "2014-12-15T13:48:16.167217Z",
-        "films": [
-            "https://swapi.api.webmasters.de/films/1/",
-            ...
-        ],
-        "gravity": "1",
-        "name": "Tatooine",
-        "orbital_period": "304",
-        "population": "120000",
-        "residents": [
-            "https://swapi.api.webmasters.de/people/1/",
-            ...
-        ],
-        "rotation_period": "23",
-        "surface_water": "1",
-        "terrain": "Dessert",
-        "url": "https://swapi.api.webmasters.de/planets/1/"
-    }
-
-**Attributes:**
+**Attribute:**
 
 - ```name``` *string*
--- The name of this planet.
+-- Der Name dieses Planeten.
 - ```diameter``` *string*
--- The diameter of this planet in kilometers.
+-- Der Durchmesser dieses Planeten in Kilometern.
 - ```rotation_period``` *string*
--- The number of standard hours it takes for this planet to complete a single rotation on its axis.
+-- Die Anzahl der Standardstunden, die dieser Planet benötigt, um eine einzige Umdrehung um seine Achse auszuführen.
 - ```orbital_period``` *string*
--- The number of standard days it takes for this planet to complete a single orbit of its local star.
+-- Die Anzahl der Standardtage, die dieser Planet benötigt, um eine einzige Umlaufbahn seines lokalen Sterns zu absolvieren.
 - ```gravity``` *string*
--- A number denoting the gravity of this planet, where "1" is normal or 1 standard G. "2" is twice or 2 standard Gs. "0.5" is half or 0.5 standard Gs.
+-- Eine Zahl, die die Schwerkraft dieses Planeten angibt, wobei "1" normal oder 1 Standard G ist. "2" ist doppelt oder 2 Standard Gs. "0,5" ist die Hälfte oder 0,5 Standard-Gs.
 - ```population``` *string*
--- The average population of sentient beings inhabiting this planet.
+-- Die durchschnittliche Population von fühlenden Wesen, die diesen Planeten bewohnen.
 - ```climate``` *string*
--- The climate of this planet. Comma separated if diverse.
+-- Das Klima dieses Planeten. Komma getrennt, wenn unterschiedlich.
 - ```terrain``` *string*
--- The terrain of this planet. Comma separated if diverse.
+-- Das Terrain dieses Planeten. Komma getrennt, wenn unterschiedlich.
 - ```surface_water``` *string*
--- The percentage of the planet surface that is naturally occurring water or bodies of water.
-- ```residents``` *array*
--- An array of People URL Resources that live on this planet.
-- ```films``` *array*
--- An array of Film URL Resources that this planet has appeared in.
-- ```url``` *string*
--- the hypermedia URL of this resource.
+-- Der Prozentsatz der Planetenoberfläche, der natürlich vorkommendes Wasser oder Gewässer ist.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
 - ```created``` *string*
--- the ISO 8601 date format of the time that this resource was created.
+-- Das ISO 8601-Datumsformat der Zeit, zu der diese Ressource erstellt wurde.
 - ```edited``` *string*
--- the ISO 8601 date format of the time that this resource was edited.
+-- Das ISO 8601 Datumsformat der Zeit, zu der diese Ressource bearbeitet wurde.
 
-**Search Fields:**
+**Suchfelder:**
 
 - ```name```
+- ```terrain```
+- ```climate```
+
+- - -
+<a name="transport"></a>
+### Transportmittel
+
+Eine Transport-Ressource ist eine Transportmittel im Star Wars-Universum.
+
+**Endpunkte**
+
+- ```/transport/``` -- erhalte alle transport resources
+- ```/transport/:id/``` -- erhalte eine bestimmte transport resource
+
+**Beispiel Anfrage:**
+
+```
+http https://swapi.api.webmasters.de/transport/4/
+```
+
+**Beispiel Antwort:**
+
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "cargo_capacity": "50000",
+    "consumables": "2 months",
+    "cost_in_credits": "150000",
+    "created": "2014-12-10T15:36:25.724Z",
+    "crew": "46",
+    "edited": "2014-12-20T21:30:21.661Z",
+    "id": 4,
+    "length": "36.8 ",
+    "manufacturer": "Corellia Mining Corporation",
+    "max_atmosphering_speed": "30",
+    "name": "Sand Crawler",
+    "passengers": "30"
+}
+```
+
+**Attribute:**
+
+- ```name``` *string*
+-- Der Name dieses Transportmittels.
+- ```cargo_capacity``` *string*
+-- Die maximale Anzahl von Kilogramm, die dieses Raumschiff transportieren kann.
+- ```consumables``` *string*
+-- Die maximale Zeitspanne, in der dieses Raumschiff Verbrauchsmaterial für die gesamte Besatzung bereitstellen kann, ohne dass eine erneute Versorgung erforderlich ist.
+- ```cost_in_credits``` *string*
+-- Die Kosten für dieses Raumschiff neu, in galaktischen Credits.
+- ```crew``` *string*
+-- Die Zahl des Personals, das für den Betrieb oder die Steuerung dieses Raumschiffs benötigt wird.
+- ```length``` *string*
+-- Die Länge dieses Raumschiffs in Metern.
+- ```manufacturer``` *string*
+-- Der Hersteller dieses Raumschiffs. Komma getrennt, wenn mehr als eins.
+- ```max_atmosphering_speed``` *string*
+-- Die Höchstgeschwindigkeit dieses Raumschiffs in der Atmosphäre. "N/A", wenn dieses Raumschiff nicht in der Lage ist, in der Atmosphäre zu fliegen.
+- ```passengers``` *string*
+-- Die Zahl der nicht lebensnotwendigen Personen, die dieses Raumschiff transportieren kann.
+- ```id``` *integer*
+-- Die einzigartige ID dieser Resource.
+- ```created``` *string*
+-- Das ISO 8601-Datumsformat der Zeit, zu der diese Ressource erstellt wurde.
+- ```edited``` *string*
+-- Das ISO 8601 Datumsformat der Zeit, zu der diese Ressource bearbeitet wurde.
+
+**Suchfelder:**
+
+- ```name```
+- ```consumables```
+- ```cargo_capacity```
+- ```passengers```
+- ```max_atmosphering_speed```
+- ```crew```
+- ```length```
+- ```cost_in_credits```
+- ```manufacturer```
+
 @endmarkdown
 
 @endsection
