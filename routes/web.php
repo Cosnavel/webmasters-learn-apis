@@ -16,7 +16,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::domain('swapi.api.test')->get('/documentation', function () {
     return view('documentation.swapi');
 })->name('documentation.swapi');
