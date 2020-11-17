@@ -15,12 +15,12 @@ class Swapi extends JsonResource
     public function toArray($request)
     {
         return [
-            "films" => route('swapi.films'),
-            "people" => route('swapi.people'),
-            "planets" => route('swapi.planets'),
-            "species" => route('swapi.species'),
-            "starships" => route('swapi.starships'),
-            "vehicles" => route('swapi.vehicles'),
+            'films' => route('swapi.films'),
+            'people' => route('swapi.people'),
+            'planets' => route('swapi.planets'),
+            'species' => route('swapi.species'),
+            'starships' => route('swapi.starships'),
+            'vehicles' => route('swapi.vehicles'),
         ];
     }
 }
