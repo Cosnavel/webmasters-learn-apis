@@ -30,7 +30,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Solar System API stellen!
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen.
 
 ```
-http solar.learn-api.webmasters.de/bodies/terre
+http {{env('SOLAR_URL')}}bodies/terre
 ```
 
 Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es die Antworten gut anzeigt und uns eine ganze Reihe weiterer nützlicher Informationen liefert. Wenn Sie [httpie] nicht herunterladen wollen, benutzen Sie stattdessen einfach den Befehl *curl*.
@@ -91,7 +91,7 @@ Die **Basis-URL** ist die Root-URL für die gesamte API. Wenn Sie jemals eine An
 
 Die Basis-URL für Solar System lautet:
 
-`https://solar.learn-api.webmasters.de/`
+`{{env('SOLAR_URL')}}`
 
 In der folgenden Dokumentation wird davon ausgegangen, dass Sie die Basis-URL den Endpunkten voranstellen, um Anfragen zu stellen.
 
@@ -111,7 +111,7 @@ Solar System ist eine **vollständig offene API**. Es ist keine Authentifizierun
 Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
 
 ```
-https://solar.learn-api.webmasters.de/bodies?filter[name]=earth
+{{env('SOLAR_URL')}}bodies?filter[name]=earth
 ```
 
  Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
@@ -135,7 +135,7 @@ JSON ist das standardmäßig bereitgestellte Datenformat.
 **Beispiel Anfrage:**
 
 ```
-http https://solar.learn-api.webmasters.de/bodies/terre
+http {{env('SOLAR_URL')}}bodies/terre
 ```
 
 **Beispiel Antwort:**

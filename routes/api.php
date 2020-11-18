@@ -36,7 +36,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::domain('swapi.api.test')->group(function () {
+Route::domain(env('SWAPI_URL'))->group(function () {
     Route::get('/', function () {
         return new SwapiResource(null);
     });
@@ -129,7 +129,7 @@ Route::domain('swapi.api.test')->group(function () {
     });
 });
 
-Route::domain('solar.api.test')->group(function () {
+Route::domain(env('SOLAR_URL'))->group(function () {
     Route::get('/bodies', function () {
         $bodies = QueryBuilder::for(Body::class)
     ->allowedFilters(['alternativeName', 'name', 'discoveredBy'])
