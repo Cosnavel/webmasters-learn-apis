@@ -16,7 +16,7 @@
                   <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
                     <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                       <div class="flex items-center justify-between w-full md:w-auto">
-                          <img class=" h-24 w-auto" src="https://de.webmasters-europe.org/assets/we/logo-2a978babedfd5869d221e46c5ed763347bb2867b1065d36d75bcf8895205cd40.png" alt="Logo">
+                      <img class=" h-24 w-auto" src="{{asset('img/we_logo.png')}}" alt="Logo">
                       </div>
                     </div>
                   </nav>
