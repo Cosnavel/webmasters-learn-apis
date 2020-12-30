@@ -1,0 +1,13 @@
+name: Deploy
+
+on: [workflow_dispatch]
+
+jobs:
+  deployment:
+      name: Deploy To Ploi
+      runs-on: ubuntu-latest
+      steps:
+          - uses: fjogeleit/http-request-action@master
+            with:
+                url: ${{ secrets.DEPLOY_WEBHOOK }}
+                method: 'POST'

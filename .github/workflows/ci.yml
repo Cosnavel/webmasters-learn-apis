@@ -1,0 +1,48 @@
+name: CI-CD
+
+on: [push, pull_request]
+
+jobs:
+
+  phpinsights:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: shivammathur/setup-php@v2
+      with:
+          php-version: 7.4
+    - name: Install Dependencies
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+    - name: Execute phpinsight
+      run: php artisan insights -n --ansi --format=github-action
+
+  php-cs-fixer:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v2
+            with:
+                  fetch-depth: 0
+                  ref: ${{ github.event.pull_request.head.ref }}
+
+
+          - name: Run PHP CS Fixer
+            uses: docker://oskarstark/php-cs-fixer-ga
+            with:
+              args: --config=.php_cs.dist --allow-risky=yes
+
+          # - name: Push Back Formatted Code
+          #   run: |
+          #       # configure git
+          #       git config --global user.name "Cosnavel"
+          #       git config --global user.email "niclasdevelop@gmail.com"
+          #       git add .
+          #       git commit -m "(CI) format code" || echo "nothing to commit"
+          #       git push
+
+          - uses: stefanzweifel/git-auto-commit-action@v4
+            with:
+                commit_message: Apply php-cs-fixer changes
+                branch: ${{ github.head_ref }}
