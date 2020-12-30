@@ -29,12 +29,12 @@ jobs:
           - uses: shivammathur/setup-php@v2
             with:
                 php-version: 7.4
-          - name: Install Dependecies & PHP-CS-FIXER
+          - name: Install Dependecies
             run: |
-                composer install && composer require friendsofphp/php-cs-fixer
+                composer install
           - name: Format
             run: |
-                vendor/php-cs-fixer fix . --no-interaction --no-ansi --quiet
+               ./vendor/bin/php-cs-fixer fix . --no-interaction --no-ansi --quiet
 
           # - name: Run PHP CS Fixer
           #   uses: docker://oskarstark/php-cs-fixer-ga
