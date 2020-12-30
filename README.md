@@ -3,6 +3,7 @@
 
 This project represents public hosted API`s to learn their usage. Currently a fork of Swapi &amp; systeme-solaire
 
+[Server Status](https://status.webmasters-akademie.dev/)
 # Dokumentation
 
 ## Swapi Dokumentation
