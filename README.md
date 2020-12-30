@@ -1,9 +1,11 @@
 ![logo](.github/readme/webmasters-learn-apis.png)
-
+<p align="center">
+    <a href="https://status.webmasters-akademie.dev/">Server Status</a>
+    <a href="https://github.styleci.io/repos/311794613?branch=main"><img src="https://github.styleci.io/repos/311794613/shield?branch=main" alt="StyleCI"></a>
+</p>
 
 This project represents public hosted API`s to learn their usage. Currently a fork of Swapi &amp; systeme-solaire
 
-[Server Status](https://status.webmasters-akademie.dev/)
 # Dokumentation
 
 ## Swapi Dokumentation
