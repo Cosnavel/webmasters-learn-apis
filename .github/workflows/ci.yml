@@ -27,11 +27,17 @@ jobs:
                   fetch-depth: 0
                   ref: ${{ github.event.pull_request.head.ref }}
 
+          - name: Install Dependecies & PHP-CS-FIXER
+            run: |
+                composer install && composer require friendsofphp/php-cs-fixer
+          - name: Format
+            run: |
+                vendor/php-cs-fixer fix . --no-interaction --no-ansi --quiet
 
-          - name: Run PHP CS Fixer
-            uses: docker://oskarstark/php-cs-fixer-ga
-            with:
-              args: --config=.php_cs.dist --allow-risky=yes
+          # - name: Run PHP CS Fixer
+          #   uses: docker://oskarstark/php-cs-fixer-ga
+          #   with:
+          #     args: --config=.php_cs.dist --allow-risky=yes
 
           # - name: Push Back Formatted Code
           #   run: |
