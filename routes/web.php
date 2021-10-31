@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::view('/documentation', 'documentation.swapi')->domain(env('SWAPI_URL'))->name('documentation.swapi');
-Route::view('/documentation', 'documentation.solar')->domain(env('SOLAR_URL'))->name('documentation.solar');
+Route::view('/documentation', 'documentation.swapi')->domain(config('settings.swapi_url'))->name('documentation.swapi');
+Route::view('/documentation', 'documentation.solar')->domain(config('settings.solar_url'))->name('documentation.solar');
 
 Route::view('/', 'welcome');
