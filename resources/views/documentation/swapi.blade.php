@@ -22,7 +22,7 @@ Lassen Sie uns unsere erste API-Anfrage an die Star Wars API stellen!
 Öffnen Sie ein Terminal und verwenden Sie [curl] (http://curl.haxx.se) oder [httpie](https://github.com/httpie/httpie), um eine API-Anfrage für eine Ressource zu stellen. Im Beispiel unten versuchen wir, den ersten Planeten, Tatooine, zu bekommen:
 
 ```
-http {{env('SWAPI_DOCS_URL')}}planets/1/
+http {{config('settings.swapi_docs_url')}}planets/1/
 ```
 
 Wir werden [httpie](http://httpie.org) für unsere Beispiele verwenden, da es die Antworten gut anzeigt und uns eine ganze Reihe weiterer nützlicher Informationen liefert. Wenn Sie [httpie] nicht herunterladen wollen, benutzen Sie stattdessen einfach den Befehl *curl*.
@@ -57,7 +57,7 @@ Die **Basis-URL** ist die Root-URL für die gesamte API. Wenn Sie jemals eine An
 
 Die Basis-URL für Swapi lautet:
 
-`{{env('SWAPI_DOCS_URL')}}`
+`{{config('settings.swapi_docs_url')}}`
 
 In der folgenden Dokumentation wird davon ausgegangen, dass Sie die Basis-URL den Endpunkten voranstellen, um Anfragen zu stellen.
 
@@ -77,7 +77,7 @@ Swapi ist eine **vollständig offene API**. Es ist keine Authentifizierung erfor
 Alle Ressourcen unterstützen einen `Suche-Parameter`, der den zurückgegebenen Ressourcensatz filtert.  Dies erlaubt es Ihnen, Abfragen zu machen wie:
 
 ```
-{{env('SWAPI_DOCS_URL')}}people?filter[name]=luke
+{{config('settings.swapi_docs_url')}}people?filter[name]=luke
 ```
 
  Bei allen Suchvorgängen wird die Groß-/Kleinschreibung bei Teilübereinstimmungen in der Menge der Suchfelder nicht berücksichtigt. Um den Satz von Suchfeldern für jede Ressource zu sehen, sehen Sie sich die Dokumentation der einzelnen Ressourcen an.
@@ -98,7 +98,7 @@ Die Root-Ressource bietet Informationen über alle verfügbaren Ressourcen inner
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}
+http {{config('settings.swapi_docs_url')}}
 ```
 
 **Beispiel Antwort:**
@@ -107,12 +107,12 @@ http {{env('SWAPI_DOCS_URL')}}
 HTTP/1.0 200 OK
 Content-Type: application/json
 {
-    "films": "{{env('SWAPI_DOCS_URL')}}films",
-    "people": "{{env('SWAPI_DOCS_URL')}}people",
-    "planets": "{{env('SWAPI_DOCS_URL')}}planets",
-    "species": "{{env('SWAPI_DOCS_URL')}}species",
-    "starships": "{{env('SWAPI_DOCS_URL')}}starships",
-    "vehicles": "{{env('SWAPI_DOCS_URL')}}vehicles"
+    "films": "{{config('settings.swapi_docs_url')}}films",
+    "people": "{{config('settings.swapi_docs_url')}}people",
+    "planets": "{{config('settings.swapi_docs_url')}}planets",
+    "species": "{{config('settings.swapi_docs_url')}}species",
+    "starships": "{{config('settings.swapi_docs_url')}}starships",
+    "vehicles": "{{config('settings.swapi_docs_url')}}vehicles"
 }
 ```
 
@@ -147,7 +147,7 @@ Eine People-Ressource ist eine einzelne Person oder ein einzelner Charakter inne
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}people/1/
+http {{config('settings.swapi_docs_url')}}people/1/
 ```
 
 **Beispiel Antwort:**
@@ -216,7 +216,7 @@ Eine Film-Ressource ist ein einzelner Film.
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}films/1
+http {{config('settings.swapi_docs_url')}}films/1
 ```
 
 **Beispiel Antwort:**
@@ -293,7 +293,7 @@ Eine Raumschiff-Ressource ist ein einzelnes Transportfahrzeug mit Hyperantriebsf
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}starships/21
+http {{config('settings.swapi_docs_url')}}starships/21
 ```
 
 **Beispiel Antwort:**
@@ -342,7 +342,7 @@ Eine Fahrzeug-Ressource ist ein einzelnes Transportfahrzeug, das **keine** Hyper
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}vehicles/4/
+http {{config('settings.swapi_docs_url')}}vehicles/4/
 ```
 
 **Beispiel Antwort:**
@@ -384,7 +384,7 @@ Eine Spezies-Ressource ist eine Art von Person oder Charakter innerhalb des Star
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}species/3/
+http {{config('settings.swapi_docs_url')}}species/3/
 ```
 
 **Beispiel Antwort:**
@@ -462,7 +462,7 @@ Eine Planeten-Ressource ist eine große Masse, ein Planet oder Planetoid im Star
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}planets/1/
+http {{config('settings.swapi_docs_url')}}planets/1/
 ```
 
 **Beispiel Antwort:**
@@ -533,7 +533,7 @@ Eine Transport-Ressource ist eine Transportmittel im Star Wars-Universum.
 **Beispiel Anfrage:**
 
 ```
-http {{env('SWAPI_DOCS_URL')}}transport/4/
+http {{config('settings.swapi_docs_url')}}transport/4/
 ```
 
 **Beispiel Antwort:**

@@ -28,14 +28,12 @@ class Handler extends ExceptionHandler
 
     /**
      * Register the exception handling callbacks for the application.
-     *
-     * @return void
      */
-    public function register()
+    public function register(): void
     {
     }
 
-    public function render($request, $exception)
+    public function render($request, $exception): \Illuminate\Http\JsonResponse
     {
         if ($exception instanceof ModelNotFoundException) {
             return response()->json([
